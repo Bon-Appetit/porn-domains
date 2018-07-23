@@ -1,5 +1,5 @@
 # Porn Domains
-List of more than 21k porn domains
+List of more than 22k porn domains
 
 I needed a list of porn domains for a web application to filter out inappropriate content and thought it could be useful to other people as well, so I am releasing this.
 

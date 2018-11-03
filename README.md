@@ -1,13 +1,12 @@
 # Porn Domains
-List of more than 22k porn domains
+This list contains a bunch of domains that are used for porn websites. Even though it is not complete and may also has some domains listed that are no longer have adult content it is still quite helpful to detect porn websites.
 
-I needed a list of porn domains for a web application to filter out inappropriate content and thought it could be useful to other people as well, so I am releasing this.
+## Add Domain
+If you would like to submit a new domain please file an issue ticket. If you want to submit more domains please do so by providing a link to your gist in where you list all domains line by line.
 
-## Add new domains
-Please file an issue ticket and submit porn domains that are not listed yet. Please do understand that only domains with a valid extension can be added. For a list of valid domain extensions please see https://www.icann.org/resources/pages/tlds-2012-02-25-en
+Please do understand that only domains with a valid extension can be added. For a list of valid domain extensions please see https://www.icann.org/resources/pages/tlds-2012-02-25-en
 
-## Removal of domains
-If you found domains that supposed to be not in the list please file an issue ticket so it can be removed.
+Thank you!
 
-### License
-Feel free to use it according to the MIT License.
+## Remove Domain
+If there is a domain that should not be in the list please file an issue ticket. Please do understand that a domain will only be removed if it is no longer registered.

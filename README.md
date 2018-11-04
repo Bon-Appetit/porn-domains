@@ -9,4 +9,4 @@ Please do understand that only domains with a valid extension can be added. For 
 Thank you!
 
 ## Remove Domain
-If there is a domain that should not be in the list please file an issue ticket. Please do understand that a domain will only be removed if it is no longer registered.
+If there is a domain that should not be in the list please file an issue ticket.

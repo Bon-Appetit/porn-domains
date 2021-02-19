@@ -2,7 +2,7 @@
 This list is a collection of bunch of domains that relate to adult content, mainly porn websites.
 
 ## domains.txt
-Contains all domains which contain porn content line by line. Domains from ignore.txt and whitelist.txt are removed from here.
+Contains all domains which are used for porn websites line by line. Domains from ignore.txt and whitelist.txt are removed from here.
 
 ## ignore.txt
 A list of domains which have been tested for their availability. Those domains are no longer registered or do not have any valid DNS records which also makes them unable to access.

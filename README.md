@@ -1,3 +1,7 @@
+**Starting from 1st September, 2021 there won't be any further DNS checks anymore. A small virtual server was in place for this but it's getting too expensive now.**
+
+---
+
 # Porn Domains
 This list is a collection of bunch of domains that relate to adult content, mainly porn websites.
 

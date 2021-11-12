@@ -1,0 +1,134 @@
+[
+  {
+    "id": "alexsannikov@adguardhome-filters~porn.txt",
+    "repo_url": "https://github.com/alexsannikov/adguardhome-filters",
+    "source_blob": "https://github.com/alexsannikov/adguardhome-filters/blob/master/porn.txt",
+    "source_raw": "https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/porn.txt"
+  },
+  {
+    "id": "brijrajparmar27@host-sources~hosts",
+    "repo_url": "https://github.com/brijrajparmar27/host-sources",
+    "source_blob": "https://github.com/brijrajparmar27/host-sources/blob/master/Porn/hosts",
+    "source_raw": "https://raw.githubusercontent.com/brijrajparmar27/host-sources/master/Porn/hosts"
+  },
+  {
+    "id": "castle67@castleads~hosts",
+    "repo_url": "https://github.com/Castle67/CastleAds",
+    "source_blob": "https://github.com/Castle67/CastleAds/blob/main/extensions/porn/sinfonietta/hosts",
+    "source_raw": "https://raw.githubusercontent.com/Castle67/CastleAds/main/extensions/porn/sinfonietta/hosts"
+  },
+  {
+    "id": "castle67@castleads~nakedsite",
+    "repo_url": "https://github.com/Castle67/CastleAds",
+    "source_blob": "https://github.com/Castle67/CastleAds/blob/main/NakedSite",
+    "source_raw": "https://raw.githubusercontent.com/Castle67/CastleAds/main/NakedSite"
+  },
+  {
+    "id": "edmondn1@mypiholelists~pipornlist.txt",
+    "repo_url": "https://github.com/EdmondN1/MyPiHoleLists",
+    "source_blob": "https://github.com/EdmondN1/MyPiHoleLists/blob/main/PiPornList.txt",
+    "source_raw": "https://raw.githubusercontent.com/EdmondN1/MyPiHoleLists/main/PiPornList.txt"
+  },
+  {
+    "id": "elbkr@bad-websites~nsfw.json",
+    "repo_url": "https://github.com/elbkr/bad-websites",
+    "source_blob": "https://github.com/elbkr/bad-websites/blob/main/separated/nsfw.json",
+    "source_raw": "https://raw.githubusercontent.com/elbkr/bad-websites/main/separated/nsfw.json"
+  },
+  {
+    "id": "emiliodallatorre@adult-hosts-list~list.txt",
+    "repo_url": "https://github.com/emiliodallatorre/adult-hosts-list",
+    "source_blob": "https://github.com/emiliodallatorre/adult-hosts-list/blob/main/list.txt",
+    "source_raw": "https://raw.githubusercontent.com/emiliodallatorre/adult-hosts-list/main/list.txt"
+  },
+  {
+    "id": "foopsss@hosts~hosts-porn",
+    "repo_url": "https://github.com/foopsss/hosts",
+    "source_blob": "https://github.com/foopsss/hosts/blob/master/hosts-porn",
+    "source_raw": "https://raw.githubusercontent.com/foopsss/hosts/master/hosts-porn"
+  },
+  {
+    "id": "go2engineering@pihole-blocklists~pihole_blocklist_adult.list",
+    "repo_url": "https://github.com/go2engineering/pihole-blocklists",
+    "source_blob": "https://github.com/go2engineering/pihole-blocklists/blob/main/pihole_blocklist_adult.list",
+    "source_raw": "https://raw.githubusercontent.com/go2engineering/pihole-blocklists/main/pihole_blocklist_adult.list"
+  },
+  {
+    "id": "littlecordines@pfsense-hosts-file~pornblocklists",
+    "repo_url": "https://github.com/LittleCordines/pfsense-hosts-file",
+    "source_blob": "https://github.com/LittleCordines/pfsense-hosts-file/blob/master/PornBlocklists",
+    "source_raw": "https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/PornBlocklists"
+  },
+  {
+    "id": "moose84@list~listapi.txt",
+    "repo_url": "https://github.com/moose84/list",
+    "source_blob": "https://github.com/moose84/list/blob/master/listaPI.txt",
+    "source_raw": "https://raw.githubusercontent.com/moose84/list/master/listaPI.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~alexsannikov-pornlist.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/alexsannikov-pornlist.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/alexsannikov-pornlist.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~chadmayfieldporn_all1.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/chadmayfieldporn_all1.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldporn_all1.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~chadmayfieldporn_all2.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/chadmayfieldporn_all2.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldporn_all2.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~chadmayfieldporn_all3.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/chadmayfieldporn_all3.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldporn_all3.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~chadmayfieldtop1mlist.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/chadmayfieldtop1mlist.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldtop1mlist.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~mhhakimpornlist.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/mhhakimpornlist.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/mhhakimpornlist.txt"
+  },
+  {
+    "id": "nizekun@adguardhome-blocklist~porn-list.txt",
+    "repo_url": "https://github.com/nizekun/adguardhome-blocklist",
+    "source_blob": "https://github.com/nizekun/adguardhome-blocklist/blob/main/porn-list.txt",
+    "source_raw": "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/porn-list.txt"
+  },
+  {
+    "id": "pedrojuan91@porn-list~porns%20websites.txt",
+    "repo_url": "https://github.com/PedroJuan91/porn-list",
+    "source_blob": "https://github.com/PedroJuan91/porn-list/blob/master/Porns%20websites.txt",
+    "source_raw": "https://raw.githubusercontent.com/PedroJuan91/porn-list/master/Porns%20websites.txt"
+  },
+  {
+    "id": "pq6p41fgt6k@potential-octo-parakeet~porn.txt",
+    "repo_url": "https://github.com/pq6p41fgt6k/potential-octo-parakeet",
+    "source_blob": "https://github.com/pq6p41fgt6k/potential-octo-parakeet/blob/master/porn.txt",
+    "source_raw": "https://raw.githubusercontent.com/pq6p41fgt6k/potential-octo-parakeet/master/porn.txt"
+  },
+  {
+    "id": "sinfonietta@hostfiles~pornography-hosts",
+    "repo_url": "https://github.com/Sinfonietta/hostfiles",
+    "source_blob": "https://github.com/Sinfonietta/hostfiles/blob/master/pornography-hosts",
+    "source_raw": "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts"
+  },
+  {
+    "id": "tiuxo@hosts~porn",
+    "repo_url": "https://github.com/tiuxo/hosts",
+    "source_blob": "https://github.com/tiuxo/hosts/blob/master/porn",
+    "source_raw": "https://raw.githubusercontent.com/tiuxo/hosts/master/porn"
+  }
+]

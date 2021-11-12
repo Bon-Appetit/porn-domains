@@ -27,7 +27,7 @@ File an issue ticket and provide the new source as below. Or just add it to the 
 
 ```json
 {
-    "id": "user@repository~nakedsite",
+    "id": "user@repository~file.txt",
     "repo_url": "https://github.com/user/repository",
     "source_blob": "https://github.com/user/repository/blob/branch/file.txt",
     "source_raw": "https://raw.githubusercontent.com/user/repository/branch/file.txt"

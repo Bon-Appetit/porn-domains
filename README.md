@@ -23,16 +23,14 @@ Adding individual domains is no longer supported. Instead please submit a GitHub
 Say you want to add the following source:
 https://github.com/user/repository/blob/branch/file.txt
 
-File an issue ticket and provide the new source as below. Or just add it to the sources ([sources.json](https://github.com/Bon-Appetit/porn-domains/blob/master/sources.json)) and send a pull request.
+You must provide the direct link to the raw content of the new source, e.g.:
 
-```json
-{
-    "id": "user@repository~file.txt",
-    "repo_url": "https://github.com/user/repository",
-    "source_blob": "https://github.com/user/repository/blob/branch/file.txt",
-    "source_raw": "https://raw.githubusercontent.com/user/repository/branch/file.txt"
-}
 ```
+https://raw.githubusercontent.com/user/repository/branch/file.txt
+```
+
+File an issue ticket with the link to the new source or add it to the ([sources.json](https://github.com/Bon-Appetit/porn-domains/blob/master/sources.json)) and send a pull request.
+
 
 Feel free to also report domains which are no longer used for such explicit content. You can file an issue ticket or send a pull request with your updated whitelist ([white.txt](https://github.com/Bon-Appetit/porn-domains/blob/master/white.txt)).
 

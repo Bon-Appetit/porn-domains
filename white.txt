@@ -2,4 +2,5 @@ ccleaner.com
 example.com
 example.net
 example.org
+fitforfun.de
 heavy.com

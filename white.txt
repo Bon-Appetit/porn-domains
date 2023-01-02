@@ -3,4 +3,6 @@ example.com
 example.net
 example.org
 fitforfun.de
+google.com
+googlevideo.com
 heavy.com

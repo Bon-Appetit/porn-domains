@@ -49,3 +49,4 @@ wordpress.com
 wp.com
 yahoo.com
 zendesk.com
+snapchat.com

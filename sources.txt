@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/porn.txt
 https://raw.githubusercontent.com/brijrajparmar27/host-sources/master/Porn/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/extensions/porn/sinfonietta/hosts

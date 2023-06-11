@@ -18,4 +18,5 @@ https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/mhhakimporn
 https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/porn-list.txt
 https://raw.githubusercontent.com/pq6p41fgt6k/potential-octo-parakeet/master/porn.txt
 https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
+https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_nsfw.txt
 https://raw.githubusercontent.com/tiuxo/hosts/master/porn

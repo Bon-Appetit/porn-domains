@@ -1,5 +1,5 @@
-https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/porn.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/brijrajparmar27/host-sources/master/Porn/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/extensions/porn/sinfonietta/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/NakedSite
@@ -22,3 +22,4 @@ https://raw.githubusercontent.com/pq6p41fgt6k/potential-octo-parakeet/master/por
 https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
 https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_nsfw.txt
 https://raw.githubusercontent.com/tiuxo/hosts/master/porn
+https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-porn

@@ -6,7 +6,6 @@ https://raw.githubusercontent.com/Castle67/CastleAds/main/NakedSite
 https://raw.githubusercontent.com/EdmondN1/MyPiHoleLists/main/PiPornList.txt
 https://raw.githubusercontent.com/elbkr/bad-websites/main/separated/nsfw.json
 https://raw.githubusercontent.com/emiliodallatorre/adult-hosts-list/main/list.txt
-https://raw.githubusercontent.com/foopsss/hosts/master/hosts-porn
 https://raw.githubusercontent.com/go2engineering/pihole-blocklists/main/pihole_blocklist_adult.list
 https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/PornBlocklists
 https://raw.githubusercontent.com/moose84/list/master/listaPI.txt

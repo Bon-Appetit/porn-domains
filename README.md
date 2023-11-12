@@ -13,6 +13,8 @@ The repository has seen a significant amount of effort to ensure the validity of
 #### block.txt
 This compilation contains all domains aggregated from various sources. Each domain has undergone syntax verification, and any duplicates have been eliminated. Additionally, specific domains, such as those from whitelists, have been omitted.
 
+As this file is too big to view in your web browser, feel free to download this HTML file ([Gist: search.html](https://gist.github.com/CodeAlDente/ee033860b0963b34ed107e95102870f7)) and to search it.
+
 ### Blacklist sources
 
 #### bl-sources.txt

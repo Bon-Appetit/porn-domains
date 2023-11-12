@@ -20,10 +20,16 @@ This compilation contains all domains aggregated from various sources. Each doma
 #### bl-sources.txt
 This file contains a list of website links, one after the other, pointing to domains associated with adult websites.
 
+#### bl-custom.txt
+Custom black list: Domains which aren't listed in the sources will be added here to have them included in the block list.
+
 ### Whitelist sources
 
 #### wl-sources.txt
 This file holds a list of website links, one after the other, leading to domains that we want to keep off the block list (usually to prevent mistakenly blocking legitimate websites).
+
+#### wl-custom.txt
+Custom white list: Domains which should be excluded from the block list will be added here.
 
 ### Is something missing or incorrect?
 If you've got a domain that needs to be added or removed, just open an issue and drop the details there. It'd be awesome if you could include a URL pointing to a file within a GitHub Repository or Gist.

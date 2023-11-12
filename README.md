@@ -18,16 +18,10 @@ This compilation contains all domains aggregated from various sources. Each doma
 #### bl-sources.txt
 This file contains a list of website links, one after the other, pointing to domains associated with adult websites.
 
-#### /bl-sources
-In this folder, you'll find the files that were downloaded from bl-sources.txt. We use them later for background tasks, and they eventually get added to block.txt.
-
-### Whitelist / Exclude sources
+### Whitelist sources
 
 #### wl-sources.txt
 This file holds a list of website links, one after the other, leading to domains that we want to keep off the block list (usually to prevent mistakenly blocking legitimate websites).
-
-#### /wl-sources
-This directory is where we store the files downloaded from wl-sources.txt. We use these files for background processes to ensure that the domains listed here remain excluded from block.txt.
 
 ### Is something missing or incorrect?
 If you've got a domain that needs to be added or removed, just open an issue and drop the details there. It'd be awesome if you could include a URL pointing to a file within a GitHub Repository or Gist.

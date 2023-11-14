@@ -23,6 +23,9 @@ This file contains a list of website links, one after the other, pointing to dom
 #### bl-custom.txt
 Custom black list: Domains which aren't listed in the sources will be added here to have them included in the block list.
 
+#### bl-custom
+In this directory, you will discover dedicated blacklist files utilized to structure external data or domains in a specific format, facilitating smooth integration and functionality within background processes.
+
 ### Whitelist sources
 
 #### wl-sources.txt
@@ -30,6 +33,9 @@ This file holds a list of website links, one after the other, leading to domains
 
 #### wl-custom.txt
 Custom white list: Domains which should be excluded from the block list will be added here.
+
+#### wl-custom
+Within this directory, you'll find specialized whitelist files. These are primarily employed to organize external data or domains into a specific structure or format for seamless integration and functionality in background processes.
 
 ### Is something missing or incorrect?
 If you've got a domain that needs to be added or removed, just open an issue and drop the details there. It'd be awesome if you could include a URL pointing to a file within a GitHub Repository or Gist.

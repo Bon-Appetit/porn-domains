@@ -50,5 +50,6 @@ wikimedia.org
 wix.com
 wordpress.com
 wp.com
+x.com
 yahoo.com
 zendesk.com

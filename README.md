@@ -3,7 +3,7 @@
 
 ---
 
-![Version Alpha](https://img.shields.io/badge/version-alpha-blue?style=for-the-badge) ![Repo Size](https://img.shields.io/github/repo-size/Bon-Appetit/porn-domains?style=for-the-badge&logo=github&label=Repo%20Size)
+![Version Alpha](https://img.shields.io/badge/version-alpha-blue?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/Bon-Appetit/porn-domains?style=flat-square&logo=github&label=Repo%20Size)
 
 # Porn Domains
 This list includes a variety of domains related to adult content, primarily focused on pornographic websites. Rather than making another list of domains, we're using the fantastic work done by others and putting it all together into one big list.

@@ -43,6 +43,7 @@ Within this directory, you'll find specialized whitelist files. These are primar
 ### Is something missing or incorrect?
 If you've got a domain that needs to be added or removed, just open an issue and drop the details there. It'd be awesome if you could include a URL pointing to a file within a GitHub Repository or Gist.
 
+### Disclaimer
 > [!WARNING]
 > This repository relies on external domains. No responsibility is assumed for the accuracy or appropriateness of their content. Ensure external sources align with your needs. Using this repository implies agreement to direct issues with external content to the source, and no liability is held. Exercise caution when engaging with external content.
 

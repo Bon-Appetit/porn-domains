@@ -24,6 +24,9 @@ This compilation contains all domains aggregated from various sources. Each doma
 #### bl-sources.txt
 This file contains a list of website links, one after the other, pointing to domains associated with adult websites.
 
+#### bl-sources.csv
+This file acts as a user-friendly reference for the information in bl-sources.txt, offering details such as repository owner, name, the timestamp of the source's last update and the time of the last check. The CSV is created by parsing GitHub raw file URLs and querying the GitHub API.
+
 #### bl-custom.txt
 Custom black list: Domains which aren't listed in the sources will be added here to have them included in the block list.
 
@@ -34,6 +37,9 @@ In this directory, you will discover dedicated blacklist files utilized to struc
 
 #### wl-sources.txt
 This file holds a list of website links, one after the other, leading to domains that we want to keep off the block list (usually to prevent mistakenly blocking legitimate websites).
+
+#### wl-sources.csv
+This file acts as a user-friendly reference for the information in wl-sources.txt, offering details such as repository owner, name, the timestamp of the source's last update and the time of the last check. The CSV is created by parsing GitHub raw file URLs and querying the GitHub API.
 
 #### wl-custom.txt
 Custom white list: Domains which should be excluded from the block list will be added here.

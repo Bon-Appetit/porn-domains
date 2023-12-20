@@ -4,7 +4,7 @@ https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/bl-custom.txt
 https://raw.githubusercontent.com/brijrajparmar27/host-sources/master/Porn/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/extensions/porn/sinfonietta/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/NakedSite
-https://raw.githubusercontent.com/EdmondN1/MyPiHoleLists/main/PiPornList.txt
+https://raw.githubusercontent.com/edmond-nader/MyPiHoleLists/main/PiPornList.txt
 https://raw.githubusercontent.com/elbkr/bad-websites/main/separated/nsfw.json
 https://raw.githubusercontent.com/emiliodallatorre/adult-hosts-list/main/list.txt
 https://raw.githubusercontent.com/go2engineering/pihole-blocklists/main/pihole_blocklist_adult.list

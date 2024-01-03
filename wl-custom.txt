@@ -10,10 +10,12 @@ example.org
 facebook.com
 fitforfun.de
 free.fr
+googleadservices.com
 google.com
 googlevideo.com
 greasyfork.org
 heavy.com
+histats.com
 imgur.com
 instagram.com
 istockphoto.com
@@ -38,6 +40,7 @@ sourceforge.net
 telegram.org
 telegraph.co.uk
 thepiratebay.org
+tinder.com
 tumblr.com
 twitter.com
 urbandictionary.com

@@ -17,7 +17,11 @@ This list includes a variety of domains related to adult content, primarily focu
 #### block.txt
 This compilation contains all domains aggregated from various sources. Each domain has undergone syntax verification, and any duplicates have been eliminated. Additionally, specific domains, such as those from whitelists, have been omitted.
 
-**As this file is too big to view in your web browser, feel free to download this HTML file ([Gist: search.html](https://gist.github.com/CodeAlDente/ee033860b0963b34ed107e95102870f7#file-search-html)) to query domains.**
+#### pass.txt
+The pass.txt file consolidates all whitelisted domains into a single file. Similar to blacklisted domains, each domain undergoes syntax checking to ensure uniform verification.
+
+> [!TIP]
+> Due to the potential size constraints for direct display, you can conveniently utilize the following HTML file to search for domains in the main lists above. Gist: ([search.html](https://gist.github.com/CodeAlDente/ee033860b0963b34ed107e95102870f7#file-search-html))
 
 ### Blacklist sources
 

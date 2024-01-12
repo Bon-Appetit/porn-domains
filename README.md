@@ -21,7 +21,7 @@ This compilation contains all domains aggregated from various sources. Each doma
 The pass.txt file consolidates all whitelisted domains into a single file. Similar to blacklisted domains, each domain undergoes syntax checking to ensure uniform verification.
 
 > [!TIP]
-> Due to the potential size constraints for direct display, you can conveniently utilize the following HTML file to search for domains in the main lists above. (Gist: [search.html](https://gist.github.com/CodeAlDente/ee033860b0963b34ed107e95102870f7#file-search-html))
+> Since the file is quite large to be shown directly in your web browser, just go ahead and use [this page](https://codealdente.github.io/search/) to search through it without any hassle.
 
 ### Blacklist sources
 

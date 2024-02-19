@@ -13,6 +13,7 @@ aarp.org
 abc.com
 abc.es
 abc.net.au
+abcnews.go.com
 abebooks.com
 aboutads.info
 about.com
@@ -251,7 +252,6 @@ dailymail.co.uk
 dailymotion.com
 dailystar.co.uk
 dan.com
-dataforseo.com
 datenschutz-ricken.de
 daum.net
 dbpedia.org
@@ -336,7 +336,6 @@ e-monsite.com
 enable-javascript.com
 encyclopedia.com
 engadget.com
-en.wikipedia.org
 eonline.com
 epa.gov
 epfindia.gov.in
@@ -744,7 +743,6 @@ mountsinai.org
 moviecultists.com
 movieweb.com
 movoto.com
-moz.com
 mozilla.com
 mozilla.org
 mreader.co
@@ -993,7 +991,6 @@ seekingalpha.com
 seesaa.net
 self.com
 semanticscholar.org
-semrush.com
 sendspace.com
 seriouseats.com
 setlist.fm
@@ -1010,7 +1007,6 @@ shutterstock.com
 si.com
 si.edu
 signalhire.com
-similarweb.com
 simpcity.su
 simplyhired.com
 sina.com.cn
@@ -1150,7 +1146,6 @@ travelocity.com
 travelweekly.com
 traymore.de
 tremendous.com
-trends.netcraft.com
 tr-ex.me
 tribunnews.com
 tripadvisor.ca
@@ -1228,7 +1223,6 @@ vimeo.com
 vinccihoteles.com
 virginia.gov
 virustotal.com
-visualcapitalist.com
 vk.com
 vkontakte.ru
 voanews.com
@@ -1311,7 +1305,6 @@ yale.edu
 yandex.com
 yandex.net
 yandex.ru
-ydoxy.com
 yell.com
 yellowpages.ca
 yellowpages.com
@@ -1335,7 +1328,6 @@ zdnet.com
 zendesk.com
 ziddu.com
 zillow.com
-zillow.comabcnews.go.com
 zippia.com
 zippyshare.com
 ziprecruiter.com

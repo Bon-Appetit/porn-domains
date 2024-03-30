@@ -245,6 +245,7 @@ crunchbase.com
 csdn.net
 ct.gov
 ctvnews.ca
+curseforge.com
 cvs.com
 cylex.de
 cylex-uk.co.uk
@@ -415,6 +416,7 @@ gamesradar.com
 geeksforgeeks.org
 genius.com
 getbootstrap.com
+getfirefox.com
 gettyimages.com
 ggpht.com
 giphy.com

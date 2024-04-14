@@ -1,6 +1,9 @@
 > [!NOTE]
 > Beginning September 1st, 2021, there will be no more DNS checks. A small VPS was used for this, but it has now become too expensive.
 
+> [!TIP]
+> The list is too big to view directly in your web browser and it's hard to search through it there, especially if you want to find specific patterns or domains. For a more convenient search option, you can use the following: https://codealdente.github.io/search/.
+
 ---
 
 ![List Size](https://img.shields.io/github/size/Bon-Appetit/porn-domains/block.txt?style=flat-square&logo=github&label=List%20Size&cacheSeconds=43200) ![Last List Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FBon-Appetit%2Fporn-domains%2Fcommits%3Fpath%3Dblock.txt%26page%3D1%26per_page%3D1&query=%24%5B0%5D.commit.author.date&style=flat-square&logo=github&label=Last%20List%20Update&cacheSeconds=43200) ![Commit Activity](https://img.shields.io/github/commit-activity/y/Bon-Appetit/porn-domains?style=flat-square&logo=github&label=Commit%20Activity&cacheSeconds=43200)
@@ -19,9 +22,6 @@ This compilation contains all domains aggregated from various sources. Each doma
 
 #### pass.txt
 The pass.txt file consolidates all whitelisted domains into a single file. Similar to blacklisted domains, each domain undergoes syntax checking to ensure uniform verification.
-
-> [!TIP]
-> Since the file is quite large to be shown directly in your web browser, just go ahead and use [this page](https://codealdente.github.io/search/) to search through it without any hassle.
 
 ### Blacklist sources
 

@@ -2,58 +2,37 @@
 > Beginning September 1st, 2021, there will be no more DNS checks. A small VPS was used for this, but it has now become too expensive.
 
 > [!TIP]
-> The list is too big to view directly in your web browser and it's hard to search through it there, especially if you want to find specific patterns or domains. For a more convenient search option, you can use the following: https://codealdente.github.io/search/.
+> This list is too large to view and search directly in a web browser. For easier searching, use the following option: https://codealdente.github.io/search/
 
 ---
 
 ![List Size](https://img.shields.io/github/size/Bon-Appetit/porn-domains/block.txt?style=flat-square&logo=github&label=List%20Size&cacheSeconds=43200) ![Last List Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FBon-Appetit%2Fporn-domains%2Fcommits%3Fpath%3Dblock.txt%26page%3D1%26per_page%3D1&query=%24%5B0%5D.commit.author.date&style=flat-square&logo=github&label=Last%20List%20Update&cacheSeconds=43200) ![Commit Activity](https://img.shields.io/github/commit-activity/y/Bon-Appetit/porn-domains?style=flat-square&logo=github&label=Commit%20Activity&cacheSeconds=43200)
 
-# Porn Domains
-This list includes a variety of domains related to adult content, primarily focused on pornographic websites. Rather than making another list of domains, we're using the fantastic work done by others and putting it all together into one big list.
+# List of domains with adult content
+This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating another list from scratch, it aggregates the excellent work done by others into a comprehensive compilation.
 
 ## ATTENTION
 > [!CAUTION]
-> The repository has seen a significant amount of effort to ensure the validity of the domains. DNS checks are handled cautiously to reduce the risk of false results. However, it's important to note that things can change rapidly. **Please bear in mind that there's no warranty regarding the accuracy of this list. Exercise caution, especially for critical use cases.**
+> The repository has undergone extensive validation of domains with careful DNS checks to minimize the potential for false results. Nevertheless, it's crucial to acknowledge that circumstances can evolve swiftly. **Please be aware that this list does not come with any guarantee of accuracy. Exercise caution, especially for critical applications.**
 
 ### List of adult domains
 
-#### block.txt
-This compilation contains all domains aggregated from various sources. Each domain has undergone syntax verification, and any duplicates have been eliminated. Additionally, specific domains, such as those from whitelists, have been omitted.
+| **Category**         | **Filename**          | **Description**                                                                                                             |
+|----------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Blacklist sources**| `bl-sources.txt`      | Contains a list of website links to domains associated with adult websites.                                                 |
+|                      | `bl-sources.csv`      | User-friendly reference for `bl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
+|                      | `bl-custom.txt`       | Custom blacklist of domains not listed in the sources but included in the block list.                                        |
+|                      | `bl-custom`           | Directory of dedicated blacklist files for structuring external data or domains in a specific format for background processes.|
+|                      | `block.txt`           | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
+| **Whitelist sources**| `wl-sources.txt`      | Contains a list of website links to domains to be kept off the block list to avoid mistakenly blocking legitimate websites.  |
+|                      | `wl-sources.csv`      | User-friendly reference for `wl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
+|                      | `wl-custom.txt`       | Custom whitelist of domains to be excluded from the block list.                                                             |
+|                      | `wl-custom`           | Directory of specialized whitelist files for organizing external data or domains into a specific structure for background processes. |
+|                      | `pass.txt`            | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
-#### pass.txt
-The pass.txt file consolidates all whitelisted domains into a single file. Similar to blacklisted domains, each domain undergoes syntax checking to ensure uniform verification.
+### Something to add or correct?
+If there's a domain you need to add or remove, simply open an issue and let us know. It would be really helpful if you could include a URL to a file in a GitHub Repository or Gist. Thank you!
 
-### Blacklist sources
-
-#### bl-sources.txt
-This file contains a list of website links, one after the other, pointing to domains associated with adult websites.
-
-#### bl-sources.csv
-This file serves as a user-friendly reference for the information in bl-sources.txt, providing details for every repository along with the timestamp of the source's last update. The CSV is generated by parsing GitHub raw file URLs and querying the GitHub API. Its order follows "last_update_to_file" in descending order to display sources with recent activity at the top.
-
-#### bl-custom.txt
-Custom black list: Domains which aren't listed in the sources will be added here to have them included in the block list.
-
-#### bl-custom
-In this directory, you will discover dedicated blacklist files utilized to structure external data or domains in a specific format, facilitating smooth integration and functionality within background processes.
-
-### Whitelist sources
-
-#### wl-sources.txt
-This file holds a list of website links, one after the other, leading to domains that we want to keep off the block list (usually to prevent mistakenly blocking legitimate websites).
-
-#### wl-sources.csv
-This file serves as a user-friendly reference for the information in wl-sources.txt, providing details for every repository along with the timestamp of the source's last update. The CSV is generated by parsing GitHub raw file URLs and querying the GitHub API. Its order follows "last_update_to_file" in descending order to display sources with recent activity at the top.
-
-#### wl-custom.txt
-Custom white list: Domains which should be excluded from the block list will be added here.
-
-#### wl-custom
-Within this directory, you'll find specialized whitelist files. These are primarily employed to organize external data or domains into a specific structure or format for seamless integration and functionality in background processes.
-
-### Is something missing or incorrect?
-If you've got a domain that needs to be added or removed, just open an issue and drop the details there. It'd be awesome if you could include a URL pointing to a file within a GitHub Repository or Gist. Thank you!
-
-## Disclaimer
+### Disclaimer
 > [!WARNING]
-> THIS REPOSITORY RELIES ON EXTERNAL DOMAINS. NO RESPONSIBILITY IS ASSUMED FOR THE ACCURACY OR APPROPRIATENESS OF THEIR CONTENT. ENSURE EXTERNAL SOURCES ALIGN WITH YOUR NEEDS. USAGE OF THIS REPOSITORY IMPLIES AN AGREEMENT TO DIRECT ISSUES WITH EXTERNAL CONTENT TO THE SOURCE, AND NO LIABILITY IS HELD. **EXERCISE CAUTION WHEN INTERACTING WITH EXTERNAL CONTENT.**
+> This repository relies on external domains. The accuracy or suitability of their content is not guaranteed. It's essential to verify that external sources meet your requirements. By using this repository, you agree to address any issues related to external content directly with the source. No liability is assumed for external content. **Exercise caution when interacting with external domains.**

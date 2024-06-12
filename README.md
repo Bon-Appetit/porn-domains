@@ -19,15 +19,15 @@ This list compiles a variety of domains related to adult content, primarily focu
 
 | **Category**         | **Filename**          | **Description**                                                                                                             |
 |----------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| **Blacklist sources**| `bl-sources.txt`      | Contains a list of website links to domains associated with adult websites.                                                 |
-|                      | `bl-sources.csv`      | User-friendly reference for `bl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
-|                      | `bl-custom.txt`       | Custom blacklist of domains not listed in the sources but included in the block list.                                        |
-|                      | `bl-custom`           | Directory of dedicated blacklist files for structuring external data or domains in a specific format for background processes.|
+| **Blacklist sources**| `blacklist/bl-sources.txt`      | Contains a list of website links to domains associated with adult websites.                                                 |
+|                      | `blacklist/bl-sources.csv`      | User-friendly reference for `bl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
+|                      | `blacklist/bl-custom.txt`       | Custom blacklist of domains not listed in the sources but included in the block list.                                        |
+|                      | `blacklist/external_format`           | Directory of dedicated blacklist files for structuring external data or domains in a specific format for background processes.|
 |                      | `block.txt`           | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
-| **Whitelist sources**| `wl-sources.txt`      | Contains a list of website links to domains to be kept off the block list to avoid mistakenly blocking legitimate websites.  |
-|                      | `wl-sources.csv`      | User-friendly reference for `wl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
-|                      | `wl-custom.txt`       | Custom whitelist of domains to be excluded from the block list.                                                             |
-|                      | `wl-custom`           | Directory of specialized whitelist files for organizing external data or domains into a specific structure for background processes. |
+| **Whitelist sources**| `whitelist/wl-sources.txt`      | Contains a list of website links to domains to be kept off the block list to avoid mistakenly blocking legitimate websites.  |
+|                      | `whitelist/wl-sources.csv`      | User-friendly reference for `wl-sources.txt`, detailing each repository with the timestamp of the last update. Ordered by recent activity. |
+|                      | `whitelist/wl-custom.txt`       | Custom whitelist of domains to be excluded from the block list.                                                             |
+|                      | `whitelist/external_format`           | Directory of specialized whitelist files for organizing external data or domains into a specific structure for background processes. |
 |                      | `pass.txt`            | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
 ### Something to add or correct?

@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/emiliodallatorre/adult-hosts-list/main/list.tx
 https://raw.githubusercontent.com/go2engineering/pihole-blocklists/main/pihole_blocklist_adult.list
 https://raw.githubusercontent.com/LittleCordines/pfsense-hosts-file/master/PornBlocklists
 https://raw.githubusercontent.com/moose84/list/master/listaPI.txt
-https://raw.githubusercontent.com/mullvad/dns-blocklists/main/lists/relay/adult/pornography-hosts
+https://raw.githubusercontent.com/mullvad/dns-blocklists/main/lists/relay/adult/oisd-nsfw
 https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/alexsannikov-pornlist.txt
 https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldporn_all1.txt
 https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/chadmayfieldporn_all2.txt

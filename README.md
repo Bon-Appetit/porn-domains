@@ -2,7 +2,7 @@
 > Beginning September 1st, 2021, there will be no more DNS checks. A small VPS was used for this, but it has now become too expensive.
 
 > [!TIP]
-> This list is too large to view and search directly in a web browser. For easier searching, use the following option: https://codealdente.github.io/search/
+> This list is too large to view and search directly in a web browser. For easier searching, use the following option: https://bon-appetit.github.io/domain-search/
 
 ---
 

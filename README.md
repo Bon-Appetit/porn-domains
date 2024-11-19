@@ -1,3 +1,9 @@
+## CHANGE IN SOURCE HANDLING
+> [!NOTE]
+> Moving forward, information for each source will be taken from its corresponding CSV file. Only sources that are not considered outdated will be included. For more details, please [read this](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-11306946).
+
+---
+
 > [!NOTE]
 > Beginning September 1st, 2021, there will be no more DNS checks. A small VPS was used for this, but it has now become too expensive.
 
@@ -10,10 +16,6 @@
 
 # List of domains with adult content
 This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating another list from scratch, it aggregates the excellent work done by others into a comprehensive compilation.
-
-## CHANGE IN SOURCE HANDLING  
-> [!CAUTION]
-> Moving forward, information for each source will be taken from its corresponding CSV file. Only sources that are not considered outdated will be included. For more details, please [read this](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-11306946).
 
 ## ATTENTION
 > [!CAUTION]

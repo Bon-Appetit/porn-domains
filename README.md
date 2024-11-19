@@ -11,6 +11,10 @@
 # List of domains with adult content
 This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating another list from scratch, it aggregates the excellent work done by others into a comprehensive compilation.
 
+## CHANGE IN SOURCE HANDLING  
+> [!CAUTION]
+> Moving forward, information for each source will be taken from its corresponding CSV file. Only sources that are not considered outdated will be included. For more details, please [read this](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-11306946).
+
 ## ATTENTION
 > [!CAUTION]
 > The repository has undergone extensive validation of domains with careful DNS checks to minimize the potential for false results. Nevertheless, it's crucial to acknowledge that circumstances can evolve swiftly. **Please be aware that this list does not come with any guarantee of accuracy. Exercise caution, especially for critical applications.**

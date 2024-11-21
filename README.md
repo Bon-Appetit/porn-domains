@@ -1,14 +1,6 @@
-## CHANGE IN SOURCE HANDLING
+## As of 21st Nov. 2024, "outdated" sources will now be excluded!
 > [!NOTE]
 > Moving forward, information for each source will be taken from its corresponding CSV file. Only sources that are not considered outdated will be included. For more details, please [read this](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-11306946).
-
----
-
-> [!NOTE]
-> Beginning September 1st, 2021, there will be no more DNS checks. A small VPS was used for this, but it has now become too expensive.
-
-> [!TIP]
-> This list is too large to view and search directly in a web browser. For easier searching, use the following option: https://bon-appetit.github.io/domain-search/
 
 ---
 
@@ -20,6 +12,10 @@ This list compiles a variety of domains related to adult content, primarily focu
 ## ATTENTION
 > [!CAUTION]
 > The repository has undergone extensive validation of domains with careful DNS checks to minimize the potential for false results. Nevertheless, it's crucial to acknowledge that circumstances can evolve swiftly. **Please be aware that this list does not come with any guarantee of accuracy. Exercise caution, especially for critical applications.**
+
+## Live search this list online
+> [!TIP]
+> This list is too large to view and search directly in a web browser. For easier searching, use the following option: https://bon-appetit.github.io/domain-search/
 
 ## Purpose
 

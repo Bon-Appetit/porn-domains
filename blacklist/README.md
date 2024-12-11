@@ -11,7 +11,7 @@
 
 ## Description of what the data inside the CSV file mean
 
-This table explains the meaning of each column in the CSV file. It includes details about repository ownership, activity, file updates, and user engagement metrics. The data is sorted in ascending order based on the `last_update_to_file_at` column, which ensures the most recently updated files appear last. This sorting helps to prioritize older updates for review or analysis while maintaining a clear and structured organization of the information.
+This table explains the meaning of each column in the CSV file. It includes details about repository ownership, activity, file updates, and user engagement metrics. The data is sorted in descending order based on the `last_update_to_file_at` column, which ensures the most recently updated files appear first. This sorting helps to quickly identify the most current updates and prioritize recent changes for review or analysis.
 
 | **Header** | **Description** |
 |------------|-----------------|

@@ -20,6 +20,9 @@ For details about updates and changes to this repository, take a look at the [CH
 ## 📝 Something to add or correct?
 If you have a domain to add or remove, feel free to open an issue. You can also submit a pull request with your changes. For whitelisting, please include the domain in `whitelist/wl-custom.txt` or provide a URL to your own whitelist file. For blacklisting, do the same with `blacklist/bl-custom.txt` or a URL to your own blacklist file.
 
+> [!NOTE]
+> If you don’t have a GitHub account or prefer to stay anonymous when reporting a domain, feel free to drop me an email at mail@codealdente.ovh. You’re also welcome to reach out if you have any questions about this project.
+
 ## 💘 Please donate to support this project
 Support is greatly appreciated, whether it comes from helping to maintain the lists or through a small donation on [buymeacoffee.com/CodeAlDente](https://buymeacoffee.com/CodeAlDente). Contributions help keep everything running smoothly and allow for continued improvements. Thank you very much!
 

@@ -18,7 +18,7 @@ For details about updates and changes to this repository, take a look at the [CH
 | `pass.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
 ## 📝 Something to add or correct?
-If you have a domain to add or remove, feel free to open an issue. You can also submit a pull request with your changes. For whitelisting, please include the domain in `whitelist/wl-custom.txt` or provide a URL to your own whitelist file. For blacklisting, do the same with `blacklist/bl-custom.txt` or a URL to your own blacklist file.
+If you have a domain to add or remove, feel free to open an issue. You can also submit a pull request with your changes. For whitelisting, please include the domain in `whitelist/wl-custom.txt` or provide a URL to your own whitelist file. For blacklisting, do the same with `blacklist/bl-custom.txt` or a URL to your own blacklist file. **Please avoid making any changes to block.txt or pass.txt, as these files are automatically generated during each list update.**
 
 > [!NOTE]
 > If you don’t have a GitHub account or prefer to stay anonymous when reporting a domain, feel free to drop me an email at mail@codealdente.ovh. You’re also welcome to reach out if you have any questions about this project.

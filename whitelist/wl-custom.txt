@@ -11,6 +11,7 @@ example.net
 example.org
 facebook.com
 fitforfun.de
+framasoft.org
 free.fr
 getfirefox.com
 googleadservices.com

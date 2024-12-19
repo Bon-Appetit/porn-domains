@@ -396,6 +396,7 @@ forvo.com
 foursquare.com
 foxnews.com
 foxsports.com
+framasoft.org
 france24.com
 francetvinfo.fr
 freecodecamp.org
@@ -821,6 +822,7 @@ office.com
 office.net
 offset.com
 ohio.gov
+oisd.nl
 okdiario.com
 ok.ru
 okta.com

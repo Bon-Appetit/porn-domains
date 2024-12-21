@@ -4,6 +4,10 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format of date is: YYYY-MM-DD**
 
+## 2024-12-20
+- New 24 blacklist sources added (08e538a211a326062ccdc789bbcac016f3003e38)
+- Blacklist source "blocklistproject" updated (ec41ce9d25ccf8c1a4bb6d609237e591713308d2)
+
 ## 2024-11-21
 
 - **"Outdated" sources are now excluded**: For more details, please [read this](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-11306946).

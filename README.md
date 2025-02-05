@@ -26,7 +26,7 @@ For detailed instructions on how to contribute, including how to add or remove d
 
 ## 🫶 Code of Conduct
 
-By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). Be respectful, professional, and constructive in your interactions.
+By participating in this project, you agree to abide by our [Code of Conduct](https://github.com/Bon-Appetit/porn-domains?tab=coc-ov-file). Be respectful, professional, and constructive in your interactions.
 
 ## 💘 Please donate to support this project
 

@@ -2,6 +2,7 @@ abcnews.go.com
 aol.com
 audible.com
 baidu.com
+bandaancha.eu
 ccleaner.com
 cnet.com
 curseforge.com

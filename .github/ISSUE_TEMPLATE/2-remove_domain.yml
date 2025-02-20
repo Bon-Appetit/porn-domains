@@ -1,0 +1,38 @@
+# .github/ISSUE_TEMPLATE/2_remove_domain.yml
+name: "Remove Domain"
+description: "Request to remove a domain from the blocklist."
+title: "[Remove Domain]: <domain name>"
+labels: ["remove domain"]
+assignees: []
+body:
+  - type: input
+    id: domain_name
+    attributes:
+      label: "Domain Name"
+      description: "Enter the domain to be removed."
+      placeholder: "example.com"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: "Reason for Removal"
+      description: "Select the reason why this domain should be removed."
+      options:
+        - "Legitimate Website (Non-Adult Content)"
+        - "Medical / Educational Resource"
+        - "Misclassified (Not Pornographic)"
+        - "Adult Content, but Allowed in Some Contexts"
+        - "Other (Specify in Additional Information)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Additional Information / Evidence"
+      description: "Provide extra details, links, or screenshots supporting your request."
+      placeholder: "E.g., screenshots, references, or explanations."
+    validations:
+      required: false

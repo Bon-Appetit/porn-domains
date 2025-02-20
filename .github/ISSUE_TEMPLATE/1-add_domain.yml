@@ -1,0 +1,40 @@
+# .github/ISSUE_TEMPLATE/1_add_domain.yml
+name: "Add Domain"
+description: "Request to add a domain to the blocklist."
+title: "[Add Domain]: <domain name>"
+labels: ["add domain"]
+assignees: []
+body:
+  - type: input
+    id: domain_name
+    attributes:
+      label: "Domain Name"
+      description: "Enter the domain to be added."
+      placeholder: "example.com"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: "Reason for Addition"
+      description: "Select the reason why this domain should be added."
+      options:
+        - "Pornographic Content (General adult content)"
+        - "Cam Site / Live Streams"
+        - "Adult Dating / Escort Services"
+        - "Ads / Redirects to Adult Content"
+        - "Misleading / Deceptive Adult Site"
+        - "Revenge Porn / Non-Consensual Content"
+        - "Other (Specify in Additional Information)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Additional Information / Evidence"
+      description: "Provide extra details, links, or screenshots supporting your request."
+      placeholder: "E.g., screenshots, references, or specific URLs."
+    validations:
+      required: false

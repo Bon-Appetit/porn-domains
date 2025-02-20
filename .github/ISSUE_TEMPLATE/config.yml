@@ -1,0 +1,26 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Questions / Discussion
+    url: https://github.com/Bon-Appetit/porn-domains/discussions
+    about: If your issue doesn't fit into any template, use Discussions instead.
+
+  - name: 🕵️ Want to stay anonymous?
+    url: https://github.com/Bon-Appetit/porn-domains/blob/master/CONTRIBUTING.md#-how-to-contribute
+    about: If you prefer to stay anonymous, you can also report domains via email.
+
+issue_templates:
+  - name: "Add Domain"
+    description: "Request to add a domain to the blocklist."
+    file: 1-add_domain.yml
+
+  - name: "Remove Domain"
+    description: "Request to remove a false-positive domain from the blocklist."
+    file: 2-remove_domain.yml
+
+  - name: "Add Source"
+    description: "Propose adding a new source that contains multiple domains."
+    file: 3-add_source.yml
+
+  - name: "Remove Source"
+    description: "Request to remove a source due to inaccuracy or false positives."
+    file: 4-remove_source.yml

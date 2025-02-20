@@ -1,0 +1,32 @@
+name: "Remove Source"
+description: "Request to remove a source from the blocklist."
+title: "[Remove Source]: <source name>"
+labels: ["remove source"]
+assignees: []
+body:
+  - type: input
+    id: source_url
+    attributes:
+      label: "Source URL"
+      description: "Enter the URL of the source you want to remove."
+      placeholder: "https://example.com/source.txt"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason for Removal"
+      description: "Why should this source be removed?"
+      placeholder: "e.g., This source contains too many false positives."
+    validations:
+      required: true
+
+  - type: textarea
+    id: example_domains
+    attributes:
+      label: "Problematic Domains"
+      description: "List some domains from this source that should not be blocked."
+      placeholder: "e.g., legitbusiness.com, safewebsite.org"
+    validations:
+      required: false

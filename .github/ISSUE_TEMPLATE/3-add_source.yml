@@ -1,0 +1,43 @@
+name: "Add Source"
+description: "Propose adding a new source of domains."
+title: "[Add Source]: <source name>"
+labels: ["add source"]
+assignees: []
+body:
+  - type: input
+    id: source_url
+    attributes:
+      label: "Source URL"
+      description: "Enter the URL of the source (e.g., a TXT file with domains)."
+      placeholder: "https://example.com/source.txt"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: "Source Type"
+      description: "Does this source provide domains to be **blocked** or **excluded/whitelisted**?"
+      options:
+        - "Blocklist (domains to be blocked)"
+        - "Whitelist (domains to be excluded from the blocklist)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason for Addition"
+      description: "Why should this source be added?"
+      placeholder: "e.g., This source is reputable and regularly updated."
+    validations:
+      required: true
+
+  - type: textarea
+    id: example_domains
+    attributes:
+      label: "Example Domains"
+      description: "Provide some example domains from this source."
+      placeholder: "e.g., adultsite.com, badsite.net"
+    validations:
+      required: false

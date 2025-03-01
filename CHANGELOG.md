@@ -4,6 +4,9 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format of date is: YYYY-MM-DD**
 
+## 2025-03-01
+Sources for blacklisting will be considered outdated if they have not been updated within three years. The condition for the archived state will be ignored from now on. [Read more here](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-12317915)
+
 ## 2025-02-03
 - New whitelist source added to exclude common news sites ([9f4f9e4](https://github.com/Bon-Appetit/porn-domains/commit/9f4f9e44574dfd7e90cc8d97bba42cec8d3a315b))
 

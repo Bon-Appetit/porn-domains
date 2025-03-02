@@ -3,7 +3,6 @@ https://raw.githubusercontent.com/ajayyy/easylist/master/easylist_adult/adult_ad
 https://raw.githubusercontent.com/alexsannikov/adguardhome-filters/master/porn.txt
 https://raw.githubusercontent.com/ameshkov/easylist/master/easylist_adult/adult_adservers.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/alt-version/porn-nl.txt
-https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/blacklist/bl-custom.txt
 https://raw.githubusercontent.com/brijrajparmar27/host-sources/master/Porn/hosts
 https://raw.githubusercontent.com/Castle67/CastleAds/main/extensions/porn/sinfonietta/hosts.txt
 https://raw.githubusercontent.com/Castle67/CastleAds/main/NakedSite.lst

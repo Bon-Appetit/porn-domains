@@ -8,4 +8,3 @@ https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/whitelist/exte
 https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/whitelist/external_format/https-www-similarweb-com-de-top-websites
 https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/whitelist/external_format/https-www-visualcapitalist-com-ranking-the-top-100-websites-in-the-world
 https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/whitelist/external_format/https-www-ydoxy-com-most-visited-websites
-https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/whitelist/wl-custom.txt

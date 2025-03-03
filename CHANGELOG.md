@@ -4,6 +4,9 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format of date is: YYYY-MM-DD**
 
+## 2025-03-03
+- New whitelist source added to exclude more than 10,000 university domains ([fe30ee9](fe30ee9f677fdfa8f60b3ef3efd0499de9c29b44))
+
 ## 2025-03-01
 Sources for blacklisting will be considered outdated if they have not been updated within three years. The condition for the archived state will be ignored from now on. [Read more here](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-12317915)
 

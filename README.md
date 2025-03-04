@@ -48,4 +48,4 @@ Definitions of “pornographic” or “sexually explicit” vary by jurisdictio
 
 ### 🛡️ Usage & Liability
 
-This is not a definitive or comprehensive list of all adult domains. By using it, you acknowledge that false positives (innocent domains blocked) and false negatives (porn sites not yet included) may occur. You assume any risks associated with over-blocking or under-blocking. The maintainers are not liable for damages or losses due to the use of this list.
+This is not a definitive or comprehensive list of all adult domains. By using it, you acknowledge that false positives (innocent domains being blocked) and false negatives (porn sites not yet included) may occur. You assume all risks associated with over-blocking or under-blocking. The maintainers are not liable for any damages or losses resulting from your use of this list.

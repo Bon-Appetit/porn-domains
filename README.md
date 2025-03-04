@@ -20,6 +20,10 @@ For details about updates and changes to this repository, take a look at the [CH
 | `block.txt` | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
 | `pass.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
+## 📜 Policy
+
+For detailed information on the policies governing the inclusion and exclusion of domains in this list, please refer to our [Domain List Policy](POLICY.md). This document outlines the criteria and procedures we follow to ensure the list is as accurate and comprehensive as possible.
+
 ## ✍️ Contributions
 
 For detailed instructions on how to contribute, including how to add or remove domains and sources, please refer to the [Contributing Guide](CONTRIBUTING.md).

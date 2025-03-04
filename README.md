@@ -34,5 +34,14 @@ Support is greatly appreciated, whether it comes from helping to maintain the li
 
 ## ⚠️ Disclaimer
 
-> [!WARNING]
-> This repository relies on external sources and the accuracy or suitability of their content is not guaranteed. It is essential to verify that the provided lists meet your requirements. By using this repository or any part of it, you agree to address any issues related to external content directly with the original source. **No guarantee is provided for content obtained from third-party sources.**
+### ❌ No Guarantee
+
+We do not guarantee the list is 100% accurate, complete, or up to date. Use it at your own discretion. Some sites may slip through, and some sites included here may eventually become non-pornographic.
+
+### ⚖️ Local Laws & Definitions
+
+Definitions of “pornographic” or “sexually explicit” vary by jurisdiction. We apply a broad, common-sense definition aligned with typical “adult content” standards. Users are responsible for ensuring they comply with local regulations or corporate policies.
+
+### 🛡️ Usage & Liability
+
+This is not a definitive or comprehensive list of all adult domains. By using it, you acknowledge that false positives (innocent domains blocked) and false negatives (porn sites not yet included) may occur. You assume any risks associated with over-blocking or under-blocking. The maintainers are not liable for damages or losses due to the use of this list.

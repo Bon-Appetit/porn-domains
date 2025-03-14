@@ -15,8 +15,9 @@ fitforfun.de
 framasoft.org
 free.fr
 getfirefox.com
-googleadservices.com
+githubusercontent.com
 google.com
+googleadservices.com
 googlevideo.com
 greasyfork.org
 heavy.com

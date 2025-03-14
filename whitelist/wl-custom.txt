@@ -43,6 +43,7 @@ orange.fr
 pinterest.com
 qq.com
 rambler.ru
+raw.githubusercontent.com
 reddit.com
 skype.com
 snapchat.com

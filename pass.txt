@@ -7,6 +7,7 @@
 14news.com
 1843magazine.com
 1stdibs.com
+1stkissmanga.io
 2001online.com
 20min.ch
 20minutes.fr
@@ -20,10 +21,13 @@
 3newsnow.com
 44news.wevv.com
 4cd.edu
+4channel.org
 4shared.com
 6abc.com
 7news.com.au
 9and10news.com
+9anime.pl
+9anime.vc
 9news.com.au
 a2.keio.jp
 a-aarhus.dk
@@ -216,6 +220,7 @@ aftenbladet.no
 aftenposten.no
 afternic.com
 aftonbladet.se
+aftral.com
 afu.edu.np
 agefi.fr
 agh.edu.pl
@@ -582,6 +587,7 @@ architecturaldigest.com
 archiveofourown.org
 archive.org
 arc.losrios.edu
+arco.co.uk
 ardahan.edu.tr
 ardrossanherald.com
 arel.edu.tr
@@ -857,6 +863,7 @@ azmiu.edu.az
 az-npu.org
 az-online.de
 aztu.edu.az
+azure.com
 azwestern.edu
 baa.by
 ba-bautzen.de
@@ -1121,6 +1128,7 @@ bilkent.edu.tr
 billboard.com
 billedbladet.dk
 bims.edu.pk
+binance.com
 binary.edu.my
 bing.com
 binghamton.edu
@@ -1288,6 +1296,7 @@ braou.ac.in
 brasildefato.com.br
 brauagra.com
 braunschweiger-zeitung.de
+brave.com
 brazcubas.br
 brcc.edu
 br.de
@@ -2022,6 +2031,7 @@ cofc.edu
 coffeyville.edu
 coffscoastadvocate.com.au
 coindesk.com
+coinmarketcap.com
 cointelegraph.com
 cointernet.com.co
 coker.edu
@@ -2101,6 +2111,7 @@ conservatoire.ru
 conservatory.az
 conservatory.ru
 consumerreports.org
+consumersteer.com
 con-telegraph.ie
 contracosta.edu
 cookman.edu
@@ -2227,6 +2238,7 @@ csauk.ac.in
 csbsju.edu
 cscc.edu
 csc.edu
+csdn.net
 csfu.edu.cn
 cshl.edu
 csi.cuny.edu
@@ -2544,6 +2556,7 @@ deccanchronicle.com
 deccancollegepune.ac.in
 deccanherald.com
 decider.com
+deepl.com
 de.euronews.com
 deezer.com
 defeanster.nl
@@ -2773,6 +2786,7 @@ donmeduni.com
 donnasicura.it
 donntu.edu.ua
 donnu.edu.ua
+dood.wf
 doordash.com
 dordt.edu
 dorsetecho.co.uk
@@ -2874,6 +2888,7 @@ dytc.ac.kr
 dyu.ac.kr
 dyu.edu.tw
 dzen.ru
+dzi.bg
 dziennik.pl
 e24.no
 e3i.univ-tours.fr
@@ -3925,6 +3940,7 @@ fwi.co.uk
 fwu.ac.jp
 fwu.edu.pk
 fxempire.com
+fxpro.com
 fyens.dk
 fzu.edu.cn
 gaana.com
@@ -4132,6 +4148,8 @@ goerie.com
 goettinger-tageblatt.de
 gofundme.com
 gogebic.edu
+gogoanime.dk
+gogoanime.tel
 golapolytechnic.org
 gold.ac.uk
 goldcoastbulletin.com.au
@@ -4145,6 +4163,7 @@ goodreads.com
 goodrx.com
 goo.gl
 googleadservices.com
+google.bg
 googleblog.com
 google.ca
 google.co.id
@@ -5108,6 +5127,7 @@ i-med.ac.at
 ime.eb.mil.br
 ime.ru
 imgur.com
+imgur.io
 imi-luzern.com
 immoduna.de
 imnu.edu.cn
@@ -5202,6 +5222,7 @@ instagram.com
 instedt.edu.my
 institutoteima.ac.pa
 instructables.com
+instructure.com
 intec.edu.do
 integraluniversity.ac.in
 inteli.edu.br
@@ -5307,6 +5328,7 @@ irishnews.com
 irishpost.com
 irishtimes.com
 irna.ir
+ironfx.com
 irsc.edu
 irs.gov
 isaacnewtoncr.com
@@ -6746,6 +6768,7 @@ livejournal.com
 livemint.com
 liverpoolecho.co.uk
 livescience.com
+livescore.in
 livestrong.com
 livingstondaily.com
 livingstone.edu
@@ -6967,7 +6990,11 @@ manchester.ac.uk
 manchestereveningnews.co.uk
 mandela.ac.za
 mandhu.com
+mangago.me
+mangakakalot.com
 mangaloreuniversity.ac.in
+mangamirror.com
+mangatx.com
 manhattan.edu
 manhattantech.edu
 manilastandard.net
@@ -7173,6 +7200,7 @@ mendocino.edu
 menofia.edu.eg
 menshealth.com
 mentalfloss.com
+mention.com
 menupix.com
 mercadolibre.com.ar
 mercadolibre.com.co
@@ -7201,6 +7229,7 @@ mesacc.edu
 mesalands.edu
 mesi.ru
 messaggeroveneto.gelocal.it
+messenger.com
 messiah.edu
 messina.gazzettadelsud.it
 messina.gds.it
@@ -7474,6 +7503,7 @@ mpu.ac.jp
 mpu-prague.cz
 mq.edu.au
 mrctv.org
+mreader.co
 mrs.umn.edu
 mrsu.ru
 mrt.ac.lk
@@ -7486,6 +7516,7 @@ msbcollege.edu
 mscc.edu
 mscfs.edu
 mscok.edu
+msdaz.org
 msdelta.edu
 msdmanuals.com
 mseuf.edu.ph
@@ -7653,6 +7684,7 @@ myongji.ac.kr
 my-pharm.ac.jp
 myport.ac.uk
 myport.port.ac.uk
+mypoweroffer.com
 mypress.mx
 myrecordjournal.com
 myrtlebeachonline.com
@@ -7776,6 +7808,7 @@ nbcsports.com
 nbcwashington.com
 nb-okonomi.dk
 nbr.co.nz
+nbryb.com
 nbu.ac.in
 nbu.ac.jp
 nbu.bg
@@ -8027,6 +8060,7 @@ nida.ac.th
 nieruchomosci.dziennik.pl
 nieuwsblad.be
 nifs-k.ac.jp
+nightskyclub.com
 nih.gov
 nih.no
 nihon-u.ac.jp
@@ -8222,6 +8256,7 @@ nouvelobs.com
 nova.edu
 novasbe.unl.pt
 novayagazeta.ru
+novelupdates.com
 novenauniversity.edu.ng
 novsu.ac.ru
 noz.de
@@ -8453,7 +8488,9 @@ oecu.jp
 oeffnungszeitenbuch.de
 oeilsurlefront.liberation.fr
 offalyindependent.ie
+office365.com
 office.com
+office.net
 offset.com
 ogasa.odessa.ua
 ogeecheetech.edu
@@ -8498,6 +8535,7 @@ okiu.ac.jp
 oklahoman.com
 ok.ru
 okstate.edu
+okta.com
 olemiss.edu
 olivetcollege.edu
 olivet.edu
@@ -8522,6 +8560,7 @@ omsk.edu
 omsk-osma.ru
 omu.edu.ly
 omu.edu.tr
+ondemand.com
 oneindia.com
 oneonta.edu
 onet.pl
@@ -8721,6 +8760,7 @@ pasim.ac.id
 pass26.edu.mk
 pasttenses.com
 patch.com
+patreon.com
 patrickhenry.edu
 pau.ac.pg
 pau.edu
@@ -9062,8 +9102,10 @@ privatfh-da.de
 privrednaakademija.edu.rs
 prnewswire.com
 prof.infnet.edu.br
+profitrc.com
 prom.ua
 propublica.org
+proton.me
 providence.edu
 providencejournal.com
 prtimes.jp
@@ -9514,6 +9556,7 @@ rottentomatoes.com
 rowan.edu
 royalgazette.com
 royalholloway.ac.uk
+royalroad.com
 royalroads.ca
 royston-crow.co.uk
 rozetka.com.ua
@@ -9974,6 +10017,7 @@ shanghaidaily.com
 shanghaitech.edu.cn
 shannoncollege.com
 sharda.ac.in
+sharepoint.com
 sharif.ac.ir
 sharjah.ac.ae
 shastacollege.edu
@@ -10098,6 +10142,7 @@ simivalleyacorn.com
 simmonscollegeky.edu
 simmons.edu
 simons-rock.edu
+simpcity.su
 simplyhired.com
 simpson.edu
 simt.edu.la
@@ -10170,6 +10215,7 @@ skynews.com
 skynews.com.au
 skype.com
 skysports.com
+slack.com
 slam.katowice.pl
 sla.se
 slate.com
@@ -10189,6 +10235,7 @@ slu.edu
 slu.edu.ph
 slu.se
 smarcos.br
+smartclaims.bg
 smccd.edu
 smcc.edu
 smccme.edu
@@ -10256,6 +10303,7 @@ sogou.com
 sohag-univ.edu.eg
 soharuni.edu.om
 sohu.com
+soinluck.com
 soka.ac.jp
 soken.ac.jp
 solabladet.no
@@ -10461,6 +10509,7 @@ stargazette.com
 starkstate.edu
 starobserver.com.au
 star-telegram.com
+startpage.com
 startribune.com
 state.gov
 state.mn.us
@@ -11377,6 +11426,7 @@ tpu.fi
 tpu.ru
 trabajadores.cu
 tradeinn.com
+tradingview.com
 trailtimes.ca
 trakya.edu.tr
 transy.edu
@@ -11388,6 +11438,7 @@ traymore.de
 trcc.commnet.edu
 trcc.edu
 treehugger.com
+tremendous.com
 trenholmstate.edu
 trenton.edu
 trentu.ca
@@ -13466,6 +13517,7 @@ uprutuado.edu
 upsa.edu.bo
 upsa.es
 upsb.edu.pe
+ups.com
 ups.edu
 ups.edu.ec
 upsi.edu.my
@@ -13984,10 +14036,12 @@ villanueva.edu
 vimaru.edu.vn
 vimeo.com
 vinayakamissions.com
+vinccihoteles.com
 vineyardgazette.com
 virginia.edu
 virginia.gov
 virginiawestern.edu
+virustotal.com
 visaliatimesdelta.com
 vistula.edu.pl
 visva-bharati.ac.in
@@ -14236,6 +14290,7 @@ weber.edu
 weblio.jp
 webmd.com
 webnode.page
+webnovel.com
 web.prover.com.br
 webs.satlink.com
 webster.ac.at

@@ -7,6 +7,7 @@ This changelog documents changes to the structure, file handling, and background
 ## 2025-03-15
 
 - DNS checks are now enforced again. They are performed directly after combining the domains across all sources. We will monitor the results to ensure everything works as expected. If you encounter any issues, please send an email to mail@codealdente.ovh.
+- DNS checks will exclude whitelist sources. Until we can ensure the results are accurate, a new file named `block.txt.dns_ok` will be placed next to `block.txt`. The `block.txt.dns_ok` file will contain DNS-validated domains, while `block.txt` will include all combined and deduplicated domains from all blacklist sources. **Please note that `block.txt.dns_ok` is TEMPORARY and WILL BE REMOVED once we confirm the results are consistently correct.**
 
 ## 2025-03-03
 

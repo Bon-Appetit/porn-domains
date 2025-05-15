@@ -1,6 +1,6 @@
-# Whitelist
+# ✅ Whitelist
 
-## Purpose
+## 🎯 Purpose
 
 | **Filename** | **Description** |
 |---|---|
@@ -9,7 +9,7 @@
 | `wl-custom.txt` | Custom whitelist of domains to be excluded from the block list. |
 | `/external_format` | Directory of specialized whitelist files for organizing external data or domains into a specific structure for background processes. |
 
-## Description of what the data inside the CSV file mean
+## 📝 Description Of What The Data Inside The CSV File Mean
 
 This table explains the meaning of each column in the CSV file. It includes details about repository ownership, activity, file updates, and user engagement metrics. The data is sorted in descending order based on the `last_update_to_file_at` column, which ensures the most recently updated files appear first. This sorting helps to quickly identify the most current updates and prioritize recent changes for review or analysis.
 

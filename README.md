@@ -18,7 +18,6 @@ For details about updates and changes to this repository, take a look at the [CH
 | **Filename** | **Description** |
 |---|---|
 | `block.txt` | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
-| `block.txt.dns_ok` | Contains DNS-validated domains from the aggregated blacklist `block.txt`. **This file is temporary and will be removed once the results are confirmed to be consistently accurate.** |
 | `pass.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
 ## 📜 Policy

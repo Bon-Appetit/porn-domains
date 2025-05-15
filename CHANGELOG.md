@@ -4,6 +4,10 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format of date is: YYYY-MM-DD**
 
+## 2025-05-15
+
+- The DNS checks have looked good for the past two months and still do. We're now writing the output directly to the main blocklist, `block.txt`. As mentioned earlier, the temporary file `block.txt.dns_ok` and its references have been removed.
+
 ## 2025-03-15
 
 - DNS checks are now enforced again. They are performed directly after combining the domains across all sources. We will monitor the results to ensure everything works as expected. If you encounter any issues, please send an email to mail@codealdente.ovh.

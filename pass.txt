@@ -1943,8 +1943,6 @@ clarku.edu
 clatsopcc.edu
 clayton.edu
 clb.ac.il
-clcillinois.edu
-clcmn.edu
 clemson.edu
 clermontsun.com
 cleveland19.com
@@ -2322,7 +2320,6 @@ cueb.edu.cn
 cu.edu.eg
 cu.edu.ge
 cu.edu.tr
-cuesta.edu
 cuet.ac.bd
 cueyatl.uam.mx
 cufe.edu.cn
@@ -2894,7 +2891,6 @@ dzi.bg
 dziennik.pl
 e24.no
 e3i.univ-tours.fr
-eacc.edu
 eac.edu
 ea.com
 eada.edu
@@ -3093,7 +3089,6 @@ elliberal.com.ar
 ellitoral.com
 elmahdi.edu.sd
 elmanana.com.mx
-elmercurio.com.ec
 elmergib.edu.ly
 elmhurst.edu
 elms.edu
@@ -3524,7 +3519,6 @@ fdcnet.ac.jp
 fdlreporter.com
 fdltcc.edu
 fd.nl
-fdtc.edu
 fdu.edu
 featiu.edu.ph
 fecap.br
@@ -4206,12 +4200,10 @@ goucher.edu
 goulburnpost.com.au
 goums.ac.ir
 gouni.edu.ng
-gov.br
 government.ind.in
 govexec.com
 govinfo.gov
 govst.edu
-gov.uk
 gpc.edu
 gpma.ru
 gp.se
@@ -7492,7 +7484,6 @@ moviecultists.com
 movieweb.com
 movoto.com
 moz.ac.at
-mozcom.com
 mozilla.com
 mozilla.org
 mpbou.org
@@ -8030,12 +8021,10 @@ nhcc.edu
 nhc.edu
 nhctc.edu.tw
 nhh.no
-nhk.or.jp
 nhltc.edu.tw
 nhnieuws.nl
 nhregister.com
 nhsinform.scot
-nhs.uk
 nhti.edu
 nhtv.nl
 nhu.edu.tw
@@ -10716,8 +10705,6 @@ sunshinecoastdaily.com.au
 sunstar.com.ph
 suntelegraph.com
 sunway.edu.my
-sunyacc.edu
-sunybroome.edu
 sunycentral.edu
 sunycgcc.edu
 sunydutchess.edu
@@ -10730,9 +10717,7 @@ suny.oneonta.edu
 sunyorange.edu
 sunyrockland.edu
 sunysccc.edu
-sunysuffolk.edu
 sunysullivan.edu
-sunyulster.edu
 sunywcc.edu
 supaero.fr
 supbiotech.fr
@@ -11310,7 +11295,6 @@ tiu.ac.jp
 tiu.tj
 tiu.uz
 tjarts.edu.cn
-tjc.edu
 tjcu.edu.cn
 tjmu.edu.cn
 tjnu.edu.cn
@@ -14825,7 +14809,6 @@ yelp.ca
 yelp.com
 yeniyuzyil.edu.tr
 yeungnam.ac.kr
-yewon.ac.kr
 ygu.ac.jp
 yhc.edu
 yic.edu.sa
@@ -14843,7 +14826,6 @@ ynu.edu.cn
 yogeb.de
 yokkaichi-u.ac.jp
 yokohama-cu.ac.jp
-yongin.ac.kr
 yonsei.ac.kr
 york.ac.uk
 york.cuny.edu
@@ -14857,7 +14839,6 @@ yorku.ca
 yosemite.edu
 yosu.ac.kr
 youku.com
-youngsan.ac.kr
 yourdictionary.com
 youronlinechoices.com
 youtu.be
@@ -14870,7 +14851,6 @@ ysparmaruniversity.org
 yspu.yar.ru
 ystadsallehanda.se
 ystu.yar.ru
-ysu.ac.kr
 ysu.am
 ysu.edu
 ysu.edu.cn
@@ -14949,9 +14929,7 @@ znuel.net
 znufe.edu.cn
 zokei.ac.jp
 zomato.com
-zoominfo.com
 zoominfo.com# URL: https://ahrefs.com/blog/most-visited-websites/
-zoom.us
 zoom.us# URL: https://dataforseo.com/top-1000-websites
 zoom.us# URL: https://en.wikipedia.org/wiki/List_of_most_visited_websites
 zoom.us# URL: https://www.similarweb.com/de/top-websites/
@@ -14973,7 +14951,6 @@ zums.ac.ir
 zuonline.ch
 zut.edu.pl
 zuyd.nl
-zvw.de
 zvw.de# URL: https://moz.com/top500
 zzgc.edu.cn
 zzut.edu.cn

@@ -4,6 +4,9 @@
 
 This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating yet another list from scratch, it aggregates the excellent work done by others into one big list.
 
+> [!IMPORTANT]
+> ⚠️ **Notice**: GitHub has restricted access to this repository. Please read [this update](https://github.com/Bon-Appetit/porn-domains/discussions/70) for more information.
+
 ## 💘 Please Donate To Support This Project
 
 Support is greatly appreciated, whether it comes from helping to maintain the lists or through a small donation on [buymeacoffee.com/CodeAlDente](https://buymeacoffee.com/CodeAlDente). Contributions help keep everything running smoothly and allow for continued improvements. Thank you very much!

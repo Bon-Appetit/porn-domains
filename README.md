@@ -4,11 +4,20 @@
 
 This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating yet another list from scratch, it aggregates the excellent work done by others into one big list.
 
-> [!IMPORTANT]
-> ⚠️ **License change**: Please be aware that starting August 1st, 2025, the license for this project will change to [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). [Read this for more details](https://github.com/Bon-Appetit/porn-domains/discussions/73)
+> [!CAUTION]
+> ⚠️ **Important Notice – Excessive Traffic and File Path Change**
+>
+> Due to unexpectedly high levels of automated traffic (exceeding 1PB/day), GitHub has issued a warning that this repository may be temporarily disabled. The spike appears to be caused by external services directly referencing `block.txt`.
+>
+> As a precaution, the original `block.txt` file has been **deleted** and **replaced** with a new file, `please-slow-down.txt`, to reduce automated requests. If you are a legitimate user, please refer to the updated file path in the repository. Note that this is a temporary measure, and a proper, permanent solution will be implemented as soon as possible. Until then, automatic updates will also be paused to avoid any conflicts with the files.
+>
+> For full context and updates, please read the ongoing discussion here:
+> 👉 [Repository Now Limited by GitHub – Here’s Why](https://github.com/Bon-Appetit/porn-domains/discussions/70#discussioncomment-13439429)
+>
+> Thank you for your understanding and support!
 
 > [!IMPORTANT]
-> ⚠️ **Restriction by GitHub**: GitHub has restricted access to this repository. Please read [this update](https://github.com/Bon-Appetit/porn-domains/discussions/70) for more information.
+> ⚠️ **License change**: Please be aware that starting August 1st, 2025, the license for this project will change to [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). [Read this for more details](https://github.com/Bon-Appetit/porn-domains/discussions/73)
 
 ## 💘 Please Donate To Support This Project
 

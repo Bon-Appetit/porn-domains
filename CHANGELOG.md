@@ -4,6 +4,16 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format Of Date Is: YYYY-MM-DD**
 
+## 2025-06-13
+
+- Starting **June 14, 2025**, the CSV rebuild process will resume to ensure we continue collecting updated stats from the sources used to generate the blocklist. However, **auto-updating of the blocklist itself will remain paused** until a reliable and sustainable solution is in place to handle the recent surge in traffic.
+
+## 2025-06-12
+
+- To help reduce ongoing excessive traffic, the original `block.txt` file has been **removed**. A temporary replacement named `please-slow-down.txt` has been created, containing the most recent entries from the blocklist.
+  - This is intended to break automated processes relying on the old file path, triggering 404 errors and encouraging proper handling like caching or adjusted fetch logic.
+  - Until a long-term fix is in place, **auto-updates will stay disabled** as a precaution to avoid file conflicts and further action from GitHub, who have contacted me about the unusually high bandwidth usage.
+
 ## 2025-05-15
 
 - The DNS checks have looked good for the past two months and still do. We're now writing the output directly to the main blocklist, `block.txt`. As mentioned earlier, the temporary file `block.txt.dns_ok` and its references have been removed.

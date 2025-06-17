@@ -4,6 +4,13 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format Of Date Is: YYYY-MM-DD**
 
+## 2025-06-17
+
+- The default branch has been renamed from `master` to `main`.
+- The file `pass.txt` has been renamed to `allow.txt`.
+- The files `block.txt` and `allow.txt` will no longer retain static names. On each update, they will be renamed to a format like `block-HASH.txt` or `allow-HASH.txt`, where `HASH` is a checksum of the file content. This change is intended to prevent direct use of raw URLs. Learn more here: 🔗 [Upcoming changes to prevent direct use of raw URLs](https://github.com/Bon-Appetit/porn-domains/discussions/75)
+- A new file named `meta.json` has been introduced. It will be updated to reflect the current filenames for both the blocklist and allowlist.
+
 ## 2025-06-13
 
 - Starting **June 14, 2025**, the CSV rebuild process will resume to ensure we continue collecting updated stats from the sources used to generate the blocklist. However, **auto-updating of the blocklist itself will remain paused** until a reliable and sustainable solution is in place to handle the recent surge in traffic.

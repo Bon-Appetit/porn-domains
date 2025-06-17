@@ -5,7 +5,7 @@
 This list compiles a variety of domains related to adult content, primarily focusing on pornographic websites. Instead of creating yet another list from scratch, it aggregates the excellent work done by others into one big list.
 
 > [!CAUTION]
-> 🚩 **Upcoming changes to prevent direct use of raw URLs** #75
+> 🚩 [Upcoming changes to prevent direct use of raw URLs](https://github.com/Bon-Appetit/porn-domains/discussions/75)
 
 > [!IMPORTANT]
 > ⚠️ **License change**: Please be aware that starting August 1st, 2025, the license for this project will change to [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). [Read this for more details](https://github.com/Bon-Appetit/porn-domains/discussions/73)

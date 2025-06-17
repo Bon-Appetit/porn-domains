@@ -28,7 +28,7 @@ For details about updates and changes to this repository, take a look at the [CH
 | **Filename** | **Description** |
 |---|---|
 | `block.txt` | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
-| `pass.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
+| `allow.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
 
 ## 📜 Policy
 

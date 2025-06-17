@@ -1,0 +1,63 @@
+name: Obfuscate allowlist to avoid use of direct raw url of allow.txt
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - allow.txt
+
+jobs:
+  obfuscate-allowlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate hash and rename allow.txt
+        id: hash_and_rename
+        run: |
+          if [ -f allow.txt ]; then
+            HASH=$(sha256sum allow.txt | cut -c1-16)
+            echo "HASH: $HASH"
+            NEWFILE="allow-$HASH.txt"
+            git mv allow.txt "$NEWFILE"
+            echo "newfile=$NEWFILE" >> $GITHUB_ENV
+          else
+            echo "allow.txt not found."
+          fi
+
+      - name: Remove previous allowlist file
+        id: remove_old_allow
+        run: |
+          if [ -f meta.json ]; then
+            OLD=$(jq -r '.allowlist // empty' meta.json)
+            echo "OLD allow file from meta.json: $OLD"
+            if [ -n "$OLD" ] && [ -f "$OLD" ]; then
+              git rm "$OLD"
+            else
+              echo "No old allowlist file to remove."
+            fi
+          else
+            echo "meta.json not found."
+          fi
+
+      - name: Update meta.json with new allow file
+        id: update_meta
+        run: |
+          NEWFILE="${{ env.newfile }}"
+          echo "Updating meta.json with: $NEWFILE"
+          if [ -f meta.json ]; then
+            jq --arg fn "$NEWFILE" '.allowlist = $fn' meta.json > meta.tmp && mv meta.tmp meta.json
+          else
+            echo "meta.json not found."
+          fi
+
+      - name: Commit and push changes
+        id: commit_and_push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add "${{ env.newfile }}" meta.json
+          git commit -m "[ACTION] Obfuscate allowlist" || echo "Nothing to commit"
+          git push "https://x-access-token:${{ secrets.CUSTOM_PAT }}@github.com/${{ github.repository }}.git" HEAD:main

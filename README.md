@@ -27,8 +27,8 @@ For details about updates and changes to this repository, take a look at the [CH
 
 | **Filename** | **Description** |
 |---|---|
-| `block.txt` | Compilation of all domains aggregated from various blacklist sources, with syntax verification and duplicates eliminated. Specific domains, such as those from whitelists, are omitted. |
-| `allow.txt` | Consolidates all whitelisted domains into a single file, with each domain undergoing syntax checking for uniform verification. |
+| `block-{HASH}.txt` | Compilation of domains from multiple blacklist sources, with syntax checks, deduplication, and whitelist exclusions. The file is regularly rotated and renamed based on a random string. |
+| `allow-{HASH}.txt` | Consolidates whitelisted domains into a single file, with syntax verification for consistency. The file is regularly rotated and renamed based on a random string. |
 | `meta.json` | Provides current filenames for blocklist and allowlist, enabling automated access without hardcoded URLs. |
 
 ## 📜 Policy

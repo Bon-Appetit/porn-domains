@@ -4,6 +4,10 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format Of Date Is: YYYY-MM-DD**
 
+## 2025-06-18
+
+- Automatic updates of the domain lists have resumed.
+
 ## 2025-06-17
 
 - The default branch has been renamed from `master` to `main`.

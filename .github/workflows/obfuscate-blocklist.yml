@@ -14,11 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate hash and rename block.txt
+      - name: Generate random string and rename block.txt
         id: hash_and_rename
         run: |
           if [ -f block.txt ]; then
-            HASH=$(sha256sum block.txt | cut -c1-16)
+            HASH=$(cat /dev/urandom | tr -dc 'a-z0-9' | head -c16)
             echo "HASH: $HASH"
             NEWFILE="block-$HASH.txt"
             git mv block.txt "$NEWFILE"

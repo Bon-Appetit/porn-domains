@@ -14,11 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate hash and rename allow.txt
+      - name: Generate random string and rename allow.txt
         id: hash_and_rename
         run: |
           if [ -f allow.txt ]; then
-            HASH=$(sha256sum allow.txt | cut -c1-16)
+            HASH=$(cat /dev/urandom | tr -dc 'a-z0-9' | head -c16)
             echo "HASH: $HASH"
             NEWFILE="allow-$HASH.txt"
             git mv allow.txt "$NEWFILE"

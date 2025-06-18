@@ -14,48 +14,61 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Pull latest changes with rebase
+        id: pull_rebase_latest
+        run: |
+          set -e
+          git pull --rebase "https://x-access-token:${{ secrets.CUSTOM_PAT }}@github.com/${{ github.repository }}.git" main
+
+      - name: Check if block.txt exists
+        run: |
+          set -e
+          if [ ! -f block.txt ]; then
+            echo "block.txt not found"
+            exit 1
+          fi
+
+      - name: Check for meta.json
+        run: |
+          set -e
+          if [ ! -f meta.json ]; then
+            echo "meta.json not found"
+            exit 1
+          fi
+
       - name: Generate random string and rename block.txt
         id: hash_and_rename
         run: |
-          if [ -f block.txt ]; then
-            HASH=$(cat /dev/urandom | tr -dc 'a-z0-9' | head -c16)
-            echo "HASH: $HASH"
-            NEWFILE="block-$HASH.txt"
-            git mv block.txt "$NEWFILE"
-            echo "newfile=$NEWFILE" >> $GITHUB_ENV
-          else
-            echo "block.txt not found."
-          fi
+          set -e
+          HASH=$(openssl rand -base64 16 | tr -dc 'A-Za-z0-9' | head -c 16)
+          echo "Generated hash: $HASH"
+          NEWFILE="block-$HASH.txt"
+          git mv block.txt "$NEWFILE"
+          echo "newfile=$NEWFILE" >> $GITHUB_ENV
 
       - name: Remove previous blocklist file
         id: remove_old_block
         run: |
-          if [ -f meta.json ]; then
-            OLD=$(jq -r '.blocklist // empty' meta.json)
-            echo "OLD block file from meta.json: $OLD"
-            if [ -n "$OLD" ] && [ -f "$OLD" ]; then
-              git rm "$OLD"
-            else
-              echo "No old blocklist file to remove."
-            fi
+          set -e
+          OLD=$(jq -r '.blocklist // empty' meta.json)
+          if [ -n "$OLD" ] && [ -f "$OLD" ]; then
+            echo "Removing old blocklist file: $OLD"
+            git rm "$OLD"
           else
-            echo "meta.json not found."
+            echo "No old blocklist file to remove"
           fi
 
-      - name: Update meta.json with new block file
+      - name: Update meta.json with new blocklist file
         id: update_meta
         run: |
+          set -e
           NEWFILE="${{ env.newfile }}"
-          echo "Updating meta.json with: $NEWFILE"
-          if [ -f meta.json ]; then
-            jq --arg fn "$NEWFILE" '.blocklist = $fn' meta.json > meta.tmp && mv meta.tmp meta.json
-          else
-            echo "meta.json not found."
-          fi
+          jq --arg fn "$NEWFILE" '.blocklist = $fn' meta.json > meta.tmp && mv meta.tmp meta.json
 
       - name: Commit and push changes
         id: commit_and_push
         run: |
+          set -e
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add "${{ env.newfile }}" meta.json

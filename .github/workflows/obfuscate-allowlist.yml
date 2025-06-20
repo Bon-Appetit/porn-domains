@@ -40,9 +40,11 @@ jobs:
         id: hash_and_rename
         run: |
           set -e
-          HASH=$(openssl rand -base64 16 | tr -dc 'A-Za-z0-9' | head -c 16)
-          echo "Generated hash: $HASH"
-          NEWFILE="allow-$HASH.txt"
+          FILE_HASH=$(sha1sum allow.txt | awk '{print $1}' | cut -c1-10)
+          RANDOM_HASH=$(openssl rand -base64 24 | tr -dc 'A-Za-z0-9' | head -c 6)
+          echo "File hash: $FILE_HASH"
+          echo "Random hash: $RANDOM_HASH"
+          NEWFILE="allow.${FILE_HASH}.${RANDOM_HASH}.txt"
           git mv allow.txt "$NEWFILE"
           echo "newfile=$NEWFILE" >> $GITHUB_ENV
 

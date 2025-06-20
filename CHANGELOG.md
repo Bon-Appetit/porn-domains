@@ -4,6 +4,13 @@ This changelog documents changes to the structure, file handling, and background
 
 **Format Of Date Is: YYYY-MM-DD**
 
+## 2025-06-20
+
+- The filenames for the allowlist and blocklist have been changed to `allow.{FILE_HASH}.{RANDOM_HASH}.txt` and `block.{FILE_HASH}.{RANDOM_HASH}.txt`.
+  - `{FILE_HASH}` contains the first 10 characters of the SHA1 checksum of the file’s content.
+  - `{RANDOM_HASH}` is a 6-character random alphanumeric string (`a–z`, `0–9`).
+  - `{FILE_HASH}` can be used to detect content changes, while `{RANDOM_HASH}` ensures the filename always gets renamed.
+
 ## 2025-06-18
 
 - Automatic updates of the domain lists have resumed.

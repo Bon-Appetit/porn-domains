@@ -77,7 +77,7 @@ You can also **remove** a source from the blocklist or whitelist if it's causing
 
 ## ℹ️ Important Notes
 
-- **block-{HASH}.txt** and **allow-{HASH}.txt**: These files are automatically generated and should **never** be modified manually.
+- **block.{FILE_HASH}.{RANDOM_HASH}.txt** and **allow.{FILE_HASH}.{RANDOM_HASH}.txt**: These files are automatically generated and should **never** be modified manually.
 - **Custom files**: Only modify `blacklist/bl-custom.txt`, `whitelist/wl-custom.txt`, `blacklist/bl-sources.txt`, and `whitelist/wl-sources.txt`.
 
 ## 💝 Thank You!

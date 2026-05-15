@@ -1,11 +1,11 @@
 {
   "blocklist": {
-    "name": "block.78fad49ffa.hnronc.txt",
-    "updated": "2026-05-14T07:34:48Z",
-    "updated_format": "May 14, 2026 07:34:48 UTC",
-    "lines": 686593,
-    "lines_format": "686,593",
-    "size": 13957504,
+    "name": "block.c815958ddb.lrtfqt.txt",
+    "updated": "2026-05-15T07:35:04Z",
+    "updated_format": "May 15, 2026 07:35:04 UTC",
+    "lines": 686336,
+    "lines_format": "686,336",
+    "size": 13957423,
     "size_format": "13.3 MB"
   },
   "allowlist": {

@@ -1,11 +1,11 @@
 {
   "blocklist": {
-    "name": "block.f3fbdcfb27.0hvlhi.txt",
-    "updated": "2026-05-20T07:35:43Z",
-    "updated_format": "May 20, 2026 07:35:43 UTC",
-    "lines": 697202,
-    "lines_format": "697,202",
-    "size": 14143508,
+    "name": "block.19fe48d92f.73hfzn.txt",
+    "updated": "2026-05-21T07:35:43Z",
+    "updated_format": "May 21, 2026 07:35:43 UTC",
+    "lines": 698651,
+    "lines_format": "698,651",
+    "size": 14171395,
     "size_format": "13.5 MB"
   },
   "allowlist": {

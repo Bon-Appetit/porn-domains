@@ -1,11 +1,11 @@
 {
   "blocklist": {
-    "name": "block.e0be06b2ef.owuidn.txt",
-    "updated": "2026-05-23T07:35:33Z",
-    "updated_format": "May 23, 2026 07:35:33 UTC",
-    "lines": 698132,
-    "lines_format": "698,132",
-    "size": 14160411,
+    "name": "block.aa15104513.4ehagf.txt",
+    "updated": "2026-05-24T07:35:35Z",
+    "updated_format": "May 24, 2026 07:35:35 UTC",
+    "lines": 697964,
+    "lines_format": "697,964",
+    "size": 14159746,
     "size_format": "13.5 MB"
   },
   "allowlist": {

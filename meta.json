@@ -1,12 +1,12 @@
 {
   "blocklist": {
-    "name": "block.aa15104513.4ehagf.txt",
-    "updated": "2026-05-24T07:35:35Z",
-    "updated_format": "May 24, 2026 07:35:35 UTC",
-    "lines": 697964,
-    "lines_format": "697,964",
-    "size": 14159746,
-    "size_format": "13.5 MB"
+    "name": "block.72e5a8c3a9.vezgcc.txt",
+    "updated": "2026-05-25T07:00:48Z",
+    "updated_format": "May 25, 2026 07:00:48 UTC",
+    "lines": 422,
+    "lines_format": "422",
+    "size": 6139,
+    "size_format": "6.0 KB"
   },
   "allowlist": {
     "name": "allow.3492f8dc14.nbx4fc.txt",

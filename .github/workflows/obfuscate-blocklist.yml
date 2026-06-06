@@ -112,14 +112,17 @@ jobs:
           fi
           echo "[DEBUG] Size format: $SIZE_FORMAT"
 
+          RAW_URL="https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main/${{ env.new_list_file_name }}"
+
           jq --arg filename "${{ env.new_list_file_name }}" \
+            --arg raw_url "$RAW_URL" \
             --arg updated "$UPDATED" \
             --arg updated_format "$UPDATED_FORMAT" \
             --argjson lines "$LINES" \
             --arg lines_format "$LINES_FORMAT" \
             --argjson size "$SIZE" \
             --arg size_format "$SIZE_FORMAT" \
-            ".${{ env.LIST_TYPE }} = {name: \$filename, updated: \$updated, updated_format: \$updated_format, lines: \$lines, lines_format: \$lines_format, size: \$size, size_format: \$size_format}" \
+            ".${{ env.LIST_TYPE }} = {name: \$filename, raw_url: \$raw_url, updated: \$updated, updated_format: \$updated_format, lines: \$lines, lines_format: \$lines_format, size: \$size, size_format: \$size_format}" \
             meta.json > meta.tmp && mv meta.tmp meta.json
 
       - name: Commit and push changes

@@ -9,6 +9,10 @@ This changelog documents changes to the structure, file handling, and background
 > [!NOTE]
 > All dates in this changelog use the **YYYY-MM-DD** format.
 
+## 2026-06-07
+
+- `raw_url` has been added to `meta.json` to make it easier to retrieve the current list directly.
+
 ## 2026-02-18
 
 - The DNS checks now also detect parked domains and filter out any domains that use nameservers associated with domain parking. For transparency, you can find the list of parking nameservers used here: https://gist.github.com/CodeAlDente/33aeb7ff369e7ecd2d52abd0d0ee7d59

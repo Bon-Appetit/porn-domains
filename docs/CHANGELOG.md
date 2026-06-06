@@ -10,14 +10,16 @@ This changelog documents changes to the structure, file handling, and background
 > All dates in this changelog use the **YYYY-MM-DD** format.
 
 ## 2026-02-18
-The DNS checks now also detect parked domains and filter out any domains that use nameservers associated with domain parking. For transparency, you can find the list of parking nameservers used here: https://gist.github.com/CodeAlDente/33aeb7ff369e7ecd2d52abd0d0ee7d59
+
+- The DNS checks now also detect parked domains and filter out any domains that use nameservers associated with domain parking. For transparency, you can find the list of parking nameservers used here: https://gist.github.com/CodeAlDente/33aeb7ff369e7ecd2d52abd0d0ee7d59
 
 ## 2025-10-08
-Add human-readable date/time to `meta.json`, see [80b20b4](https://github.com/Bon-Appetit/porn-domains/commit/80b20b4fee01d50c850870c72416ab3d05c6cdd1).
+
+- Human-readable date/time has been added to `meta.json`, see [80b20b4](https://github.com/Bon-Appetit/porn-domains/commit/80b20b4fee01d50c850870c72416ab3d05c6cdd1).
 
 ## 2025-07-02
 
-- Update `meta.json` to modify its structure and include additional information about the lists. For each list, it includes the file name, the last updated timestamp, the number of lines it contains (basically number of domains), and its size in bytes.
+- `meta.json` has been updated to include additional information about the lists. For each list, it includes the file name, the last updated timestamp, the number of lines it contains (basically number of domains), and its size in bytes.
 
 ## 2025-06-20
 
@@ -58,11 +60,11 @@ Add human-readable date/time to `meta.json`, see [80b20b4](https://github.com/Bo
 
 ## 2025-03-03
 
-- New whitelist source added to exclude more than 10,000 university domains ([fe30ee9](https://github.com/Bon-Appetit/porn-domains/commit/fe30ee9f677fdfa8f60b3ef3efd0499de9c29b44))
+- A new whitelist source has been added to exclude more than 10,000 university domains, see [fe30ee9](https://github.com/Bon-Appetit/porn-domains/commit/fe30ee9f677fdfa8f60b3ef3efd0499de9c29b44).
 
 ## 2025-03-01
 
-Sources for blacklisting will be considered outdated if they have not been updated within three years. The condition for the archived state will be ignored from now on. [Read more here](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-12317915)
+- Sources for blacklisting will be considered outdated if they have not been updated within three years. The condition for the archived state will be ignored from now on. [Read more here](https://github.com/Bon-Appetit/porn-domains/discussions/43#discussioncomment-12317915)
 
 ## 2025-02-03
 

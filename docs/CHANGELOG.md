@@ -11,7 +11,7 @@ This changelog documents changes to the structure, file handling, and background
 
 ## 2026-06-07
 
-- `raw_url` has been added to `meta.json` to make it easier to retrieve the current list directly.
+- `raw_url` has been added to `meta.json` to make it easier to retrieve the current list directly, see [30a46f7](https://github.com/Bon-Appetit/porn-domains/commit/30a46f75e77eba6b8616c021b81aeed34e3a15d9).
 
 ## 2026-02-18
 

@@ -78,6 +78,9 @@ jobs:
         run: |
           set -e
 
+          # Set proper locale for numeric format
+          export LC_NUMERIC="en_US.UTF-8"
+
           # Get last modification timestamp of the list file
           FILE_TS=$(stat -c %Y "${{ env.new_list_file_name }}")
           UPDATED=$(date -u -d "@$FILE_TS" +"%Y-%m-%dT%H:%M:%SZ")
@@ -91,16 +94,13 @@ jobs:
           LINES=$(grep -c '^' "${{ env.new_list_file_name }}")
           echo "[DEBUG] Lines: $LINES"
 
-          # Get file size in bytes
-          SIZE=$(stat -c %s "${{ env.new_list_file_name }}")
-          echo "[DEBUG] Size: $SIZE"
-
-          # Set proper locale for numeric format
-          export LC_NUMERIC="en_US.UTF-8"
-
           # Format lines (e.g. "1,234 lines")
           LINES_FORMAT=$(printf "%'d" "$LINES")
           echo "[DEBUG] Lines format: $LINES_FORMAT"
+
+          # Get file size in bytes
+          SIZE=$(stat -c %s "${{ env.new_list_file_name }}")
+          echo "[DEBUG] Size: $SIZE"
 
           # Format size (e.g. "2.1 KB") based on size
           if [ "$SIZE" -lt 1024 ]; then

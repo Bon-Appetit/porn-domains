@@ -1,6 +1,6 @@
 # URL: https://github.com/Hipo/university-domains-list/blob/master/world_universities_and_domains.json
-# LAST UPDATE (OF DATA): 2026-04-20
-# LAST DATA PROCESSING (DATE): 2026-04-21
+# LAST UPDATE (OF DATA): 2026-05-28
+# LAST DATA PROCESSING (DATE): 2026-06-09
 # COMMENTS: Extracted, sorted, deduplicated
 29mayis.edu.tr
 4cd.edu
@@ -63,7 +63,6 @@ acibadem.edu.tr
 acighana.org
 ackonline.com
 ac-mayotte.fr
-acms.edu.my
 acmt.ac.ir
 acofi.edu
 ac-orleans-tours.fr
@@ -237,7 +236,6 @@ algonquincollege.com
 alhikmah.edu.ng
 alhosnu.ae
 aliabad.iau.ir
-al.infnet.edu.br
 alkhair.edu.pk
 alldunivpio.org
 allegany.edu
@@ -300,6 +298,7 @@ amtuni.com
 amu.ac.in
 amu.edu.az
 amu.edu.et
+amu.edu.my
 amu.edu.pl
 amursu.ru
 amuz.bydgoszcz.pl
@@ -501,6 +500,7 @@ atsu.edu.ge
 atu.ac.ir
 atu.edu
 atu.edu.gh
+atu.edu.tr
 aua.ac.ke
 aua.am
 auaf.edu.af
@@ -579,9 +579,9 @@ aventis.edu.sg
 averett.edu
 avicenna.hu
 avila.edu
+avinuty.ac.in
 avondale.edu.au
 avrasya.edu.tr
-avtlg.ru
 avu.org
 awf.edu.pl
 awf.gda.pl
@@ -755,7 +755,6 @@ bhms.ch
 bhsu.edu
 bhtafe.edu.au
 bhu.ac.in
-bhub.ori.nic.in
 bhu.edu.cn
 bhu.kg
 bible.ac.kr
@@ -827,6 +826,7 @@ bmhs.org
 bmi.edu.my
 bmstu.ru
 bmsu.ac.ir
+bmu.edu.bd
 bnmu.in
 bntu.by
 bnue.ac.kr
@@ -864,7 +864,7 @@ bpu.ac.lk
 bpums.ac.ir
 bput.org
 brabu.net
-bracuniversity.net
+bracu.ac.bd
 brad.ac.uk
 bradley.edu
 brandeis.edu
@@ -882,7 +882,6 @@ bridgemont.edu
 bridgeport.edu
 bridgewater.edu
 bridgew.edu
-brijnet.org
 bris.ac.uk
 bristol.ac.uk
 bristolcc.edu
@@ -939,6 +938,7 @@ bth.se
 bton.ac.uk
 btsau.kiev.ua
 btu.bg
+b-tu.de
 btu.edu.ge
 btu.edu.tr
 btu.ge
@@ -977,7 +977,6 @@ bulehorauniversity.com
 bulsu.edu.ph
 bums.ac.ir
 bundelkhanduniversity.org
-bundenet.com
 bunghatta.ac.id
 bunka-wu.ac.jp
 bunkyo.ac.jp
@@ -1204,11 +1203,11 @@ chapingo.mx
 chapman.edu
 charismauniversity.org
 charusat.ac.in
+chat.edu.pl
 chatfield.edu
 chatham.edu
 chattahoocheetech.edu
 chattanoogastate.edu
-chefs.edu
 cheju.ac.kr
 cheju-e.ac.kr
 chelsea.linst.ac.uk
@@ -1318,6 +1317,7 @@ cloud.edu
 clovis.edu
 clpccd.edu
 clsbe.lisboa.ucp.pt
+clsu.edu.ph
 cmb.ac.lk
 cmccd.edu
 cmcc.edu
@@ -1330,6 +1330,7 @@ cmru.ac.th
 cmu.ac.th
 cmu.ca
 cmu.edu
+cmu.edu.bd
 cmu.edu.cn
 cmu.edu.ph
 cmvc.ac.th
@@ -1415,6 +1416,7 @@ connect.polyu.hk
 connect.ust.hk
 connorsstate.edu
 conservatoire.ru
+conservatoriodeltolima.edu.co
 conservatory.az
 conservatory.ru
 contracosta.edu
@@ -1670,7 +1672,6 @@ dbatechuni.org
 db.dk
 dbq.edu
 dbskkv.org
-dbs.tn.nic.in
 dbu.edu
 dbu.edu.et
 dc3.edu
@@ -2389,7 +2390,6 @@ fh-wuerzburg.de
 fh-zwickau.de
 fic.br
 fielding.edu
-filine.centro.ru
 filmacademy.hu
 filmowka.lodz.pl
 fimmu.edu.cn
@@ -2520,6 +2520,7 @@ fvcc.edu
 fvsu.edu
 fvtc.edu
 fwu.ac.jp
+fwu.edu.np
 fwu.edu.pk
 fzu.edu.cn
 gac.edu
@@ -2547,6 +2548,7 @@ gatech.edu
 gatewaycc.edu
 gateway.kctcs.edu
 gau.ac.ir
+gau.edu.bd
 gau.edu.tr
 gavilan.edu
 gazi.edu.tr
@@ -2580,6 +2582,7 @@ gemsvilleuniversity.com
 genesee.edu
 geneseo.edu
 geneva.edu
+geomatika.edu.my
 georgefox.edu
 georgetown.edu
 georgiancollege.ca
@@ -2624,7 +2627,7 @@ gkvharidwar.org
 gla.ac.uk
 glam.ac.uk
 glendale.edu
-glenoaks.cc.mi.us
+glenoaks.edu
 glion.edu
 global-business-school.org
 global.edu.pk
@@ -2635,6 +2638,7 @@ gma.ru
 gmc.cc.ga.us
 gmercyu.edu
 gmi.edu
+gmi.edu.my
 gmit.ie
 gmu.ac.ae
 gmu.ac.ir
@@ -2812,7 +2816,9 @@ hanseo.ac.kr
 hanseuni.de
 hanshin.ac.kr
 hansung.ac.kr
+hanu.edu.vn
 hanuniversity.com
+hanu.vn
 hanyang.ac.kr
 hanze.nl
 hanzhong.ac.kr
@@ -3030,6 +3036,8 @@ hneu.edu.ua
 hnfjxy.cn
 hnluraipur.com
 hnu.edu.cn
+hnue.edu.vn
+hoasen.edu.vn
 hochschule-bonn-rhein-sieg.de
 hocking.edu
 hoduniv.net.ye
@@ -3209,6 +3217,7 @@ iauba.ac.ir
 iaubos.ac.ir
 iau-boukan.ac.ir
 iauctb.ac.ir
+iau.edu.bd
 iau.edu.sa
 iau-garmsar.ac.ir
 iauh.ac.ir
@@ -3389,7 +3398,6 @@ imsciences.edu.pk
 imsu.edu.ng
 imt-atlantique.net
 imtlucca.it
-imtu.edu
 imu.edu.cn
 imu.edu.my
 inatek.ac.rw
@@ -3450,7 +3458,6 @@ ioe.ac.uk
 iona.edu
 ionio.gr
 iota.edu.au
-iota.u-psud.fr
 iowacentral.edu
 iowalakes.edu
 ipa.edu.sa
@@ -3552,6 +3559,7 @@ ismm.edu.cu
 ismpo.sk
 ismra.fr
 isnm.de
+iso.fr
 isothermal.edu
 ispab.pt
 ispa.pt
@@ -3838,7 +3846,6 @@ jum.ru
 jums.ac.ir
 juniata.edu
 juniv.edu
-juntan.k-junshin.ac.jp
 juntendo.ac.jp
 jussieu.fr
 just.edu.jo
@@ -3846,6 +3853,7 @@ jutcm.com
 jut.edu.cn
 juw.edu.pk
 jvbi.ac.in
+jvlma.lv
 jwcc.edu
 jwu.ac.jp
 jwu.ac.kr
@@ -3904,7 +3912,6 @@ karatinauniversity.ac.ke
 karazin.ua
 karch.dk
 kardan.edu.af
-karelia.ru
 karlshochschule.de
 karlsruhe.dhbw.de
 karnatakastateopenuniversity.in
@@ -3922,6 +3929,7 @@ kastamonu.edu.tr
 kasuportal.net
 kateb.edu.af
 kath-fh-nord.de
+kau.ac.bd
 kau.ac.ir
 kau.ac.kr
 kauai.hawaii.edu
@@ -3964,7 +3972,6 @@ kdischool.ac.kr
 kdpu.edu.ua
 kdu.ac.kr
 kdu.ac.lk
-kdu.edu.my
 kdu.md
 kduniv.ac.kr
 kean.edu
@@ -4049,7 +4056,6 @@ kiperak.edu.my
 kipsas.edu.my
 kirklareli.edu.tr
 kirkwood.edu
-kirovballet.com
 kirtland.edu
 ki.se
 kish.ac.ir
@@ -4063,12 +4069,14 @@ kitakyu-u.ac.jp
 kitami-it.ac.jp
 kitasato-u.ac.jp
 kit.edu
+kiu.ac.bd
 kiu.ac.jp
 kiu.ac.kr
 kiu.ac.ug
 kiu.edu.pk
 kiui.ac.jp
 kiu.ru
+k-junshin.ac.jp
 kkot.ac.kr
 kku.ac.th
 kku.edu.sa
@@ -4165,6 +4173,7 @@ kpi.ua
 kptm.edu.my
 kpu.ac.jp
 kpu.ac.kr
+kpu.ca
 kpu-m.ac.jp
 krirk.ac.th
 krishnauniversity.ac.in
@@ -4241,7 +4250,6 @@ kufos.ac.in
 kufs.ac.jp
 kug.ac.at
 kuim.edu.my
-kuin.edu.my
 kuins.ac.jp
 kuis.ac.jp
 kuis.edu.my
@@ -4335,8 +4343,8 @@ laccd.edu
 lacitycollege.edu
 lackawanna.edu
 lacollege.edu
+lacounty.org
 ladelta.edu
-ladhs.org
 lafayette.edu
 lagcc.cuny.edu
 lagh-univ.dz
@@ -4495,7 +4503,6 @@ lmu.de
 lmu.edu
 lmu.edu.ng
 lmunet.edu
-lmuza.lv
 ln.edu.hk
 ln.hk
 lnipe.edu
@@ -4536,6 +4543,7 @@ lsc.edu
 lsco.edu
 lse.ac.uk
 lshtm.ac.uk
+lsjs.ac.uk
 lsmu.edu.ua
 lspa.lanet.lv
 lssu.edu
@@ -4571,7 +4579,6 @@ luther.edu
 luthersem.edu
 luth.se
 luzerne.edu
-luz.ve
 lva.lt
 lvc.edu
 lycoming.edu
@@ -4626,12 +4633,12 @@ manavrachna.edu.in
 manc.edu
 manchester.ac.uk
 mandela.ac.za
-mandhu.com
+mandhu.edu.mv
 mangaloreuniversity.ac.in
 manhattan.edu
 manhattantech.edu
 manipal.edu
-manipur.nic.in
+manipuruniv.ac.in
 manit.ac.in
 mannheim.dhbw.de
 manoa.hawaii.edu
@@ -4691,6 +4698,7 @@ mbro.ac.uk
 mbs.ac.uk
 mbstu.ac.bd
 mbu.ac.th
+mbust.edu.np
 mbzuai.ac.ae
 mc3.edu
 mcad.edu
@@ -4709,7 +4717,6 @@ mc.edu
 mcg.edu
 mcgill.ca
 mchenry.edu
-mch.mii.lt
 mci.edu
 mcl.edu.ph
 mclennan.edu
@@ -4764,7 +4771,6 @@ meio-u.ac.jp
 meisei-u.ac.jp
 mejiro.ac.jp
 mekong.edu.kh
-members.rotfl.com
 memphis.edu
 mendelu.cz
 mendocino.edu
@@ -4889,7 +4895,6 @@ mkuhyd.com
 mkv2.mah.nic.in
 mlaw.edu
 mlqu.edu.ph
-ml.refer.org
 mlsbu.ac.uk
 mlsu.ac.in
 mmarau.ac.ke
@@ -5109,6 +5114,7 @@ mwc.edu
 mwsc.edu
 mwsu.edu
 mwu.edu.et
+mwu.edu.np
 mxcc.commnet.edu
 myara.ara.ac.nz
 mybrcc.edu
@@ -5119,6 +5125,7 @@ mylambton.ca
 mylaurier.ca
 mylcp.net
 mymail.mapua.edu.ph
+mymtu.ie
 myongji.ac.kr
 my-pharm.ac.jp
 myport.ac.uk
@@ -5171,7 +5178,6 @@ nashcc.edu
 nashuacc.edu
 natfiz.bg
 nation.ac.th
-nationalmuseumindia.org
 nau.edu
 nau.edu.ua
 nauss.edu.sa
@@ -5260,8 +5266,8 @@ neo.edu
 neosho.edu
 nes.ru
 netc.edu
-netcomsa.com
 network.rca.ac.uk
+neu.ac.bd
 neub.edu.bd
 neu.edu
 neu.edu.cn
@@ -5280,6 +5286,7 @@ newcollege.ac.uk
 newcollege.edu
 neweracollege.ac.bw
 newhaven.edu
+newinti.edu.my
 newpaltz.edu
 newport.ac.uk
 newports.edu.pk
@@ -5450,7 +5457,6 @@ northeastern.edu
 northeaststate.edu
 northern.edu
 northgatech.edu
-northlakecollege.edu
 northlandcollege.edu
 northland.edu
 northshore.edu
@@ -5533,6 +5539,7 @@ ntu.ac.uk
 ntua.gr
 ntu.edu.sg
 ntu.edu.tw
+ntu.edu.vn
 ntue.edu.tw
 ntu.kar.net
 ntust.edu.tw
@@ -5682,7 +5689,6 @@ omancollege.edu.om
 omgau.ru
 omgtu.ru
 omgups.ru
-oml.pt
 omsk.edu
 omsk-osma.ru
 omu.edu.ly
@@ -5748,6 +5754,7 @@ otsuma.ac.jp
 otterbein.edu
 ou.ac.lk
 ou.ac.uk
+ouat.ac.in
 ouc.ac.cy
 ouc.edu.cn
 ou.dk
@@ -5800,7 +5807,6 @@ paloverde.edu
 pamir.edu.af
 pamlicocc.edu
 pam.szczecin.pl
-pamukkale.edu.tr
 panam.edu
 pancabudi.ac.id
 panimalar.ac.in
@@ -5824,6 +5830,7 @@ patrickhenry.edu
 pau.ac.pg
 pau.edu
 pau.edu.ng
+pau.edu.tr
 paulquinn.edu
 pauluniversity.edu.ng
 payap.ac.th
@@ -5865,6 +5872,7 @@ perpetualdalta.edu.ph
 peru.edu
 pes.edu
 petra.ac.id
+petrsu.ru
 pfh-goettingen.de
 pfu.edu.ru
 pfw.edu
@@ -6029,7 +6037,6 @@ princeton.edu
 principia.edu
 privatfh-da.de
 privrednaakademija.edu.rs
-prof.infnet.edu.br
 providence.edu
 prz.rzeszow.pl
 psa.edu.my
@@ -6156,7 +6163,6 @@ qcc.cuny.edu
 qcc.edu
 qc.cuny.edu
 qc.edu.sa
-qdnet.pl
 qdpi.uz
 qdu.edu.cn
 qfnu.edu.cn
@@ -6164,6 +6170,7 @@ qhnu.edu.cn
 qhrtvu.edu.cn
 qhu.edu.cn
 qiau.ac.ir
+qiu.edu.my
 qmul.ac.uk
 qmw.ac.uk
 qom.ac.ir
@@ -6234,6 +6241,7 @@ rct.edu.sa
 rcu.ac.zw
 rdg.ac.uk
 rdunijbpin.org
+reading.edu.my
 rea.ru
 rectorat-uh2c.ac.ma
 redcross.ac.jp
@@ -6289,7 +6297,6 @@ ritsumei.ac.jp
 riv.edu
 riverland.edu
 rivervalley.edu
-riviera.fr
 riyadh.edu.sa
 rjt.ac.lk
 rku.ac.jp
@@ -6304,6 +6311,7 @@ rmit.edu.vn
 rmkcet.ac.in
 rmkec.ac.in
 rmlau.ac.in
+rmstu.portal.gov.bd
 rmu.edu
 rmutp.ac.th
 rmwc.edu
@@ -6374,6 +6382,7 @@ ruhr-uni-bochum.de
 ru.is
 rule.edu.kh
 ru.lv
+rumc.edu.my
 rumeli.edu.tr
 rumi.ac.ma
 rums.ac.ir
@@ -6394,7 +6403,6 @@ saadcollege.com
 sab.ac.lk
 saba.edu.ge
 sabanciuniv.edu
-sabanciuniv.edu.tr
 sabauni.net
 sabi.eu.com
 sac.edu
@@ -6448,6 +6456,7 @@ samiit.ru
 samk.fi
 sampsoncc.edu
 samsmu.ru
+samsun.edu.tr
 sanaaguniversity.com
 sanbeda.edu.ph
 sancarlos.edu.py
@@ -6475,7 +6484,6 @@ sapmed.ac.jp
 sapporo-u.ac.jp
 sarjanawiyata.ac.id
 sas.ac.uk
-saskweb.com
 sas-sd.net
 sastra.ac.in
 sastra.edu
@@ -6590,12 +6598,12 @@ seattleu.edu
 sebhau.edu.ly
 sec.ac.bd
 secon.edu
+secretarialuz.org
 secupv.org
 s.eduhk.hk
 seeu.edu.mk
 segi.edu.my
 sehan.ac.kr
-sehir.edu.tr
 seian.ac.jp
 seigakuin-univ.ac.jp
 seijo.ac.jp
@@ -6794,6 +6802,7 @@ siu-heidelberg.de
 siust.edu.sy
 sjca.edu
 sjcc.edu
+sjcc.edu.in
 sjc.edu
 sjcme.edu
 sjcsf.edu
@@ -6810,7 +6819,6 @@ sju.edu
 sjvc.edu
 sjzu.edu.cn
 skagit.edu
-ska.khio.no
 skc.edu
 skema.edu
 skhu.ac.kr
@@ -6902,6 +6910,7 @@ sonoma.edu
 sookmyung.ac.kr
 soongsil.ac.kr
 sophia.ac.jp
+sopocka.edu.pl
 soran.edu.iq
 sorbon.fr
 sorbonne.ae
@@ -6911,6 +6920,7 @@ sothebysinstitutelondon.com
 soton.ac.uk
 sou.edu
 southalabama.edu
+southamptonmalaysia.edu.my
 southark.edu
 southasianuniversity.org
 southcentral.edu
@@ -6955,6 +6965,7 @@ spiruharet.ro
 spjain.org
 spmi.edu.ru
 spnu.ac.ir
+spokane.edu
 spokanefalls.edu
 spscc.ctc.edu
 sp.senac.br
@@ -7058,8 +7069,8 @@ stir.ac.uk
 stjohn.ac.th
 stjohns.edu
 stjosephs.ac.in
+stjosephsgroup.org
 stjosephstechnology.ac.in
-stjosephtanzania.com
 stkate.edu
 stlawu.edu
 stlcop.edu
@@ -7126,6 +7137,7 @@ student.wab.edu.pl
 student.westherts.ac.uk
 stud.hs-hannover.de
 stud.vilniustech.lt
+studytafensw.edu.au
 stu.edu
 stu.edu.cn
 stu.edu.gh
@@ -7141,6 +7153,7 @@ suagm.edu
 suai.ru
 suanet.ac.tz
 subr.edu
+subu.edu.tr
 suc.edu.om
 suda.edu.cn
 su.digitaluniversity.ac
@@ -7304,6 +7317,7 @@ taegu-e.ac.kr
 taejae.ac.kr
 taejon.ac.kr
 taeshin.ac.kr
+tafensw.edu.au
 tafe.wa.edu.au
 taftcollege.edu
 taftu.edu
@@ -7366,10 +7380,10 @@ tcu.edu
 tcu.edu.tw
 tdc.ac.jp
 tdiu.uz
+tdtu.edu.vn
 tdtu.uz
 teak.fi
 tecbc.mx
-technet.com.br
 technikum-wien.at
 technion.ac.il
 techniqueedu.com
@@ -7482,16 +7496,15 @@ tmmu.edu.cn
 tmtc.edu.tw
 tmu.ac.ir
 tmv.edu.in
+tnau.ac.in
 tnca.edu.tw
 tncc.edu
 tndalu.org
-tnmeyah.net
 tnmmu.ac.in
 tnstate.edu
 tntech.edu
 tnu.crimea.ua
 tnuni.sk
-tnuniv.ac.in
 tnut.ac.kr
 tocc.edu
 tohoku.ac.jp
@@ -7786,6 +7799,7 @@ uanarino.edu.co
 uancv.edu.pe
 uandes.cl
 uandina.edu.pe
+uan.edu.co
 uane.edu.mx
 uanl.mx
 uan.mx
@@ -7825,6 +7839,7 @@ uatla.pt
 uat.mx
 uat.ro
 uatx.mx
+uauim.ro
 uav.ro
 uax.es
 uaysen.cl
@@ -8092,6 +8107,7 @@ udl.edu.pe
 udl.es
 udm.edu.my
 udmercy.edu
+udn.vn
 udo.edu
 udo.edu.ve
 udom.ac.tz
@@ -8261,6 +8277,7 @@ ui.ac.ir
 uia.es
 uiah.fi
 uia.mx
+uia.no
 uibe.edu.cn
 uib.es
 uibk.ac.at
@@ -8386,6 +8403,7 @@ ulsab.edu.mx
 ulsac.edu.mx
 ulsa.edu.mx
 ulsan.ac.kr
+uls.edu.sv
 ulsop.ac.uk
 ulspu.ru
 ulst.ac.uk
@@ -8973,6 +8991,7 @@ unisey.ac.sc
 unisg.ch
 unisg.it
 unishabunia.org
+unishams.edu.my
 unishivaji.ac.in
 unishk.edu.al
 uni-siegen.de
@@ -9128,7 +9147,6 @@ univ-guelma.dz
 univ-ibntofail.ac.ma
 univie.ac.at
 univillarica.mx
-univ-inpt.fr
 univ-jfc.fr
 univ-jijel.dz
 univ-kag.org
@@ -9452,6 +9470,7 @@ uovs.ac.za
 uowasit.edu.iq
 uowdubai.ac.ae
 uow.edu.au
+uow.edu.my
 uowmail.edu.au
 uowm.gr
 uoz.ac.ir
@@ -9761,6 +9780,7 @@ ust.hk
 ustmb.ac.ir
 ust.md
 ustpaul.ca
+usttb.edu.ml
 usu.ac.id
 usu.br
 usudbury.com
@@ -9916,6 +9936,7 @@ uvm.edu.ve
 uvmnet.edu
 uvm.sk
 uv.mx
+uvp.mx
 uvsc.edu
 uvs.edu
 uvsq.fr
@@ -9969,6 +9990,7 @@ uzh.ch
 uzimauniversity.ac.ke
 uz.rnu.tn
 uzswlu.uz
+vaganovaacademy.ru
 valahia.ro
 valdosta.edu
 valenciacollege.edu
@@ -9984,8 +10006,9 @@ vbu.co.in
 vcc.ca
 vcc.edu
 vccs.edu
-vcsu.nodak.edu
+vcsu.edu
 vcu.edu
+vda.lt
 vdu.edu.ua
 vdu.lt
 velammal.edu.in
@@ -10042,6 +10065,7 @@ vlekho.be
 vlerick.be
 vlerick.com
 vlsu.ru
+vlu.edu.vn
 vmi.edu
 vmou.ac.in
 vmuf.edu.ph
@@ -10050,6 +10074,7 @@ vnmu.vn.ua
 vnu.edu.vn
 vnuhcm.edu.vn
 voenmeh.ru
+volgogradstatemedicaluniversity.in
 volstate.edu
 volsu.ru
 voorhees.edu
@@ -10167,7 +10192,6 @@ wdsdjxy.com
 wdt.edu
 wdu.edu.ng
 weber.edu
-web.prover.com.br
 webster.ac.at
 webster.ac.th
 webster.ch
@@ -10369,7 +10393,6 @@ wwcc.edu
 wwcc.wy.edu
 wwu.de
 wwu.edu
-www2.mozcom.com
 www3.sunysuffolk.edu
 www.clcillinois.edu
 www.clcmn.edu
@@ -10414,6 +10437,7 @@ xjtu.edu.cn
 xju.edu.cn
 xjufe.edu.cn
 xmu.edu.cn
+xmu.edu.my
 xtnu.edu.cn
 xtu.edu.cn
 xu.edu.ph

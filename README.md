@@ -1,7 +1,6 @@
 <div align="center">
 
 [![Logo](https://bon-appetit.github.io/assets/images/ba-pd-logo.png)](https://github.com/Bon-Appetit/porn-domains)
-https://img.shields.io/github/contributors/Bon-Appetit/porn-domains
 
 [![Contributors](https://img.shields.io/github/contributors/Bon-Appetit/porn-domains?label=%F0%9F%91%A5%20Contributors&style=flat&labelColor=white&color=FA2549)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTORS.md) [![Sponsors](https://img.shields.io/badge/%F0%9F%92%8E-Sponsors-null?style=flat&labelColor=white&color=614986)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/SPONSORS.md)
 

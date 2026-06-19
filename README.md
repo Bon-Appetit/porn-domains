@@ -1,8 +1,9 @@
 <div align="center">
 
 [![Logo](https://bon-appetit.github.io/assets/images/ba-pd-logo.png)](https://github.com/Bon-Appetit/porn-domains)
+https://img.shields.io/github/contributors/Bon-Appetit/porn-domains
 
-[![Contributors](https://img.shields.io/badge/%F0%9F%91%A5-Contributors-null?style=flat&labelColor=white&color=FA2549)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTORS.md) [![Sponsors](https://img.shields.io/badge/%F0%9F%92%8E-Sponsors-null?style=flat&labelColor=white&color=614986)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/SPONSORS.md)
+[![Contributors](https://img.shields.io/github/contributors/Bon-Appetit/porn-domains?label=%F0%9F%91%A5%20Contributors&style=flat&labelColor=white&color=FA2549)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTORS.md) [![Sponsors](https://img.shields.io/badge/%F0%9F%92%8E-Sponsors-null?style=flat&labelColor=white&color=614986)](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/SPONSORS.md)
 
 [![Watchers](https://img.shields.io/github/watchers/Bon-Appetit/porn-domains?label=Watchers&style=flat-square&logo=github&cacheSeconds=43200)](https://github.com/Bon-Appetit/porn-domains/watchers) [![Forks](https://img.shields.io/github/forks/Bon-Appetit/porn-domains?label=Forks&style=flat-square&logo=github&cacheSeconds=43200)](https://github.com/Bon-Appetit/porn-domains/forks) [![Stars](https://img.shields.io/github/stars/Bon-Appetit/porn-domains?label=Stars&style=flat-square&logo=github&cacheSeconds=43200)](https://github.com/Bon-Appetit/porn-domains/stargazers) [![Commits](https://img.shields.io/github/commit-activity/m/Bon-Appetit/porn-domains?label=Commits&style=flat-square&logo=github&cacheSeconds=43200)](https://github.com/Bon-Appetit/porn-domains/commits/main/) [![License](https://img.shields.io/github/license/Bon-Appetit/porn-domains?label=License&style=flat-square&color=2481C0&cacheSeconds=43200)](https://github.com/Bon-Appetit/porn-domains/blob/main/LICENSE)
 

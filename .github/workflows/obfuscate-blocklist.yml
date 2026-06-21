@@ -130,8 +130,8 @@ jobs:
         run: |
           set -e
 
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "${{ env.new_list_file_name }}" meta.json
           git commit -m "[ACTION] Obfuscate ${{ env.LIST_TYPE }}" || echo "Nothing to commit"
           git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main

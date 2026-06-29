@@ -1,12 +1,12 @@
 {
   "blocklist": {
-    "name": "block.2552ed2070.hya0fp.txt",
-    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/refs/heads/main/block.2552ed2070.hya0fp.txt",
-    "updated": "2026-06-28T07:33:43Z",
-    "updated_format": "June 28, 2026 07:33:43 UTC",
-    "lines": 681778,
-    "lines_format": "681,778",
-    "size": 13846350,
+    "name": "block.902c7e35c4.5n67f4.txt",
+    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/refs/heads/main/block.902c7e35c4.5n67f4.txt",
+    "updated": "2026-06-29T07:34:04Z",
+    "updated_format": "June 29, 2026 07:34:04 UTC",
+    "lines": 682053,
+    "lines_format": "682,053",
+    "size": 13850467,
     "size_format": "13.2 MB"
   },
   "allowlist": {

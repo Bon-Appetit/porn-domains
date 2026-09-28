@@ -1,77 +1,65 @@
 # Policy
 
-This document outlines why and how we maintain domains in this repository, as well as the process for adding or removing domains. The goal is to provide a family-friendly network environment by blocking access to pornographic or explicit sites at the DNS level.
+This policy defines which domains may be included in the blocklist and how removal requests are assessed. The list is intended for people and organizations choosing to filter adult content on their own networks. It is a best-effort dataset, not a guarantee of protection.
 
-## Repository scope and purpose
+## Scope
 
-### Primary purpose
+The list covers domains whose main purpose is to provide, distribute, promote, or directly enable access to pornographic or explicit sexual content. Content is assessed by what a service offers and how it is used at scale, not by whether it is real, animated, synthetic, or AI-generated.
 
-- We collect domains that are used for hosting, distributing, or facilitating pornographic or explicit sexual content.
-- This includes both "traditional" adult content websites (e.g., porn tube sites, adult pay sites) and user-generated content platforms that allow unrestricted uploads of explicit material with no effective adult-only gating.
+DNS filtering applies to domains and subdomains, not individual pages, posts, or URL paths. A domain may therefore be unsuitable for blocking when it also hosts substantial non-adult content that cannot be separated at the domain level.
 
-### Why a DNS-based list?
+## Inclusion criteria
 
-- DNS-level blocking is a straightforward approach for home networks, schools, or organizations that want to prevent accidental (or intentional) access to adult content.
-- This repository is offered as-is; it might not capture *all* adult domains. We welcome community contributions to keep it updated.
+A domain is eligible for inclusion when reliable evidence shows one or more of the following:
 
-### Intended audience
+### Dedicated adult services
 
-- Network administrators, parents, educators, or anyone else wanting to apply a “porn block” via DNS resolvers.
-- It is not intended to be a censorship tool—it is a resource for people seeking to enforce their own preferences or policies regarding adult content.
+- The service's primary purpose is to publish or sell pornography or explicit sexual material, including video, images, live streams, audio, adult games, sexual chat, or erotic role-play.
+- The domain is an adult-content brand, subscription service, affiliate, or redirect whose main function is to promote or lead to adult content.
 
-## Criteria for inclusion (block criteria)
+### Explicit user-generated content
 
-A domain should be added to the list if one or more of these conditions apply:
+- Publicly accessible user uploads regularly contain explicit sexual content, and that material is a substantial, foreseeable part of the service rather than isolated misuse.
+- The service actively promotes or facilitates the publication or discovery of adult content, including where it is mixed with non-adult material on the same domain and cannot be meaningfully separated.
 
-### Primary adult content
+### AI-generated or altered sexual content
 
-- The domain's main purpose is to distribute or promote explicit, pornographic, or highly sexualized content.
-- Examples: Porn streaming sites, adult magazines, adult video chat services, etc.
+- The domain primarily generates, edits, hosts, sells, or distributes pornographic or explicit sexual material made or altered with AI or other synthetic-media tools.
+- This includes adult image or video generators, sexualized face-swap and nudification services, and services focused on pornographic deepfakes or other synthetic intimate imagery.
+- A domain that is dedicated to distributing non-consensual intimate imagery or sexualized depictions of people without their consent warrants priority review. Synthetic or face-swapped content is assessed under the same criteria as other explicit content.
 
-### Unrestricted uploads and sharing
+The inclusion criterion applies to the service or content being offered; it is not a judgment about a person's identity or a claim that every user or item on a platform is explicit.
 
-- The domain hosts user-generated content (images, videos, etc.) that regularly includes pornographic or explicit material without meaningful content filtering or age-gating.
-- If explicit media can be uploaded and shared publicly at `example.com/<random-link>`, that domain belongs in the block list (especially if it is known to be regularly used for porn distribution).
+### Evidence and review
 
-### No separation between adult and non-adult content
+- Decisions should be based on current, credible evidence: the service's stated purpose, publicly available pages, reliable reports, or multiple consistent community reports.
+- A report should identify the specific domain and explain its connection to explicit content. A domain name, category label, or one unverified report alone may not be enough.
+- A domain may be added even if it is currently inaccessible, when credible evidence establishes its purpose and the domain is still active.
 
-- If a platform mixes adult and non-adult content under the same domain (i.e., no subdomain separation or robust filter), it may be considered effectively "adult."
-- For example, if `somesite.com` has both a "family-friendly" section and a "hardcore porn" section all on `somesite.com` (not `adult.somesite.com`), it is difficult to block one without blocking the other. Hence, it is likely included here.
+## Exclusions and limits
 
-### Domain redirects or affiliates
+The following are not sufficient by themselves to add a domain:
 
-- The domain exists primarily to redirect to porn/erotic content or adult affiliate programs.
-- Example: If you go to `redirect-porn-ads.com`, and it immediately sends you to `pornsite.com`, it is effectively an adult domain.
+- Occasional adult-themed discussions or isolated user uploads on a service whose main purpose is not adult content.
+- A general-purpose social network, image host, cloud-storage provider, AI assistant, image editor, or face-swap tool merely because some users can misuse it to create or share explicit material.
+- Non-explicit nudity, sexual-health information, education, news reporting, or artistic material without a primary purpose of providing pornography or explicit sexual content.
+- Lack of an age gate alone. Conversely, an age gate or login does not make a dedicated adult service ineligible.
 
-### Known Porn “Brand”
+General-purpose platforms are assessed using the same evidence and domain-level tests as other sites. A dedicated adult subdomain may be listed instead of the entire domain when it can be blocked separately. A whole domain should not be listed merely because a particular page or user account contains explicit content.
 
-- The domain is a recognized brand name in adult entertainment, used for marketing or distributing adult content, even if the homepage occasionally displays “PG” text.
+## Removal and correction
 
-### Consistent community reports
+Remove or narrow an entry when reliable, current evidence shows that:
 
-- Multiple credible user reports indicate the domain is hosting or significantly involved with explicit content.
-- Submissions must have some form of evidence or reference.
+- The domain is not meaningfully associated with explicit sexual content or was added in error.
+- The site's purpose or content has materially changed and it no longer meets the inclusion criteria.
+- Only a separable subdomain provides adult content, so blocking the parent domain would unnecessarily affect unrelated services.
+- A source is stale or inaccurate and no current evidence supports retaining the domain.
 
-## Criteria for exclusion or removal
+An age gate, account requirement, or content warning alone is not a reason to remove a domain whose primary purpose remains adult content. Where a domain has changed, reassess its current use rather than relying only on historical reports.
 
-A domain should not be added (or should be removed) if it only meets one or more of these conditions:
+## Reporting sensitive or illegal material
 
-### Incidental or rare adult content
+Do not upload, attach, or redistribute explicit images or videos as evidence. This is especially important for suspected non-consensual imagery or sexual content involving minors, including synthetic depictions. Report the domain and provide non-explicit context or a trusted public reference; use the appropriate platform, hotline, or law-enforcement channel for urgent reports of potentially illegal material.
 
-- The site is not primarily adult; it might have forums or discussions that occasionally include NSFW content, but that is not a major part of the site.
-- Example: A mainstream news site that publishes one adult-themed article per year.
-
-### Legitimate hosting and social platforms with strict filters
-
-- Large, mainstream platforms (e.g., Twitter, YouTube, Imgur, or others) that have robust policies, age gates, or adult filters are typically excluded, unless adult content is a central, unmoderated aspect of the site.
-- For instance, if a major platform is known to have unfiltered or majority porn content, it may end up on the list—but that is quite rare. We treat these on a case-by-case basis.
-
-### Subdomain separation
-
-- The domain has a separate adult-only subdomain (e.g., `xxx.example.com`) which can be selectively blocked, and the rest of the domain is safe.
-- In this scenario, we may add only the adult subdomain rather than the entire domain, if that effectively blocks explicit content.
-
-### Cleared or Changed Policies
-
-- The site used to host explicit content but no longer does; or they implemented a robust gating mechanism that effectively keeps adult content behind a login or adult subdomain.
-- If a domain owner demonstrates meaningful changes, we should remove it from the block list.
+See [Contributing](CONTRIBUTING.md) for how to submit domain and source reports.

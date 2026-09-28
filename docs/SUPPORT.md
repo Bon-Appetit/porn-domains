@@ -4,15 +4,8 @@ Thank you for using this project! If you need help or want to report an issue, p
 
 ## Getting Help
 
-- Issues: Use [Issues](https://github.com/Bon-Appetit/porn-domains/issues) only to request adding or removing domains, or to report problems with existing domains.
-- Discussions: The [Discussions](https://github.com/Bon-Appetit/porn-domains/discussions) tab is the right place to ask questions, suggest new features, or share feedback publicly.
+- [Issues](https://github.com/Bon-Appetit/porn-domains/issues): Report a domain or source for addition or removal, or report a problem with an existing entry.
+- [Discussions](https://github.com/Bon-Appetit/porn-domains/discussions): Ask questions, suggest improvements, or share feedback.
+- Email: [mail@codealdente.ovh](mailto:mail@codealdente.ovh) for private reports or other inquiries. PGP key: [EFBE85EBC20F7446](https://keys.mailvelope.com/pks/lookup?op=get&search=mail@codealdente.ovh).
 
-## Reporting Issues
-
-When creating an issue, please use the appropriate issue template. Note that issue templates may not function correctly on mobile devices. If you are on a mobile device, consider switching to a PC for the best experience, or alternatively, you can report your issue via email.
-
-## Contact
-
-For any other case—such as needing help, wanting to report domains in private, or just to reach out—you may contact us via email.
-
-Email: [mail@codealdente.ovh](mailto:mail@codealdente.ovh) (PGP Key: [0xC20F7446](https://keys.mailvelope.com/pks/lookup?op=get&search=mail@codealdente.ovh))
+For domain reports, include the exact domain and non-explicit evidence as described in the [contributing guide](CONTRIBUTING.md). Do not attach or redistribute explicit media.

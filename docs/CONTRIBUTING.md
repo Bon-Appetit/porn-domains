@@ -1,79 +1,72 @@
 # Contributing
 
-First off, thanks for taking the time to contribute! Whether you're reporting a missing domain, fixing a mistake, or suggesting improvements, all types of contributions are encouraged and valued. 🙌
+Thanks for taking the time to contribute! Whether you're reporting a missing domain, correcting an entry, or suggesting an improvement, your help is appreciated!
 
 ## How to contribute
 
 > [!NOTE]
-> If you don't have a GitHub account or prefer to stay anonymous when reporting a domain, feel free to drop me an email at [mail@codealdente.ovh](mailto:mail@codealdente.ovh). You're also welcome to reach out if you have any questions about this project.
+> If you don't have a GitHub account or prefer to report a domain privately, email [mail@codealdente.ovh](mailto:mail@codealdente.ovh). You can also use email to ask questions about the project.
 
 ### Add or remove a domain
 
-You can either create a new issue to suggest adding or removing a domain, or if you're comfortable, submit a pull request with the changes yourself.
+You can request a change by opening an issue, or make the change yourself in a pull request. Please review the [policy](POLICY.md) before submitting a domain.
 
 #### Option 1: Report a domain via issue
 
-To suggest adding or removing a domain, please follow these steps:
+Open a [new issue](https://github.com/Bon-Appetit/porn-domains/issues) and include:
 
-Create an issue: Create a [new issue](https://github.com/Bon-Appetit/porn-domains/issues) and include the following:
-
-- Domain name(s) you want to add or remove (e.g. example.com)
-- Reason for inclusion or exclusion (e.g. contains porn, false-positive, "family safe" etc.)
-- Supporting evidence (such as URLs, screenshots or references)
+- The domain name(s) and whether you want them added or removed (for example, `example.com`).
+- The reason for the request, such as adult content or a false positive.
+- Supporting evidence, such as relevant URLs or references. Do not attach explicit images or videos; see the [policy](POLICY.md).
 
 #### Option 2: Submit a domain via pull request
 
-If you prefer to make the changes yourself, you can submit a pull request. Here's how:
+To make the change yourself, submit a pull request:
 
-1. Fork the repository and clone it to your local machine
-2. Edit the list:
-   - To block a domain: Add it to the `blacklist/bl-custom.txt` file
-   - To whitelist a domain: Add it to the `whitelist/wl-custom.txt` file (this will also remove the domain from the blocklist)
-3. Commit your changes and submit a pull request with a clear description of what you changed
+1. Fork the repository and clone it to your computer.
+2. Add the domain to the appropriate file:
+   - To block it, add it to `blacklist/bl-custom.txt`.
+   - To keep it off the blocklist, add it to `whitelist/wl-custom.txt`.
+3. Submit a pull request explaining the change.
 
 ### Add or remove a source
 
-Sources are URLs that point to files containing multiple domains. You can either create a new issue to suggest adding or removing a source, or submit a pull request with the changes yourself.
+Sources are URLs to files containing multiple domains. You can request a source change in an issue or make it directly in a pull request.
 
 #### Option 1: Report a source via issue
 
-To suggest adding or removing a source, follow these steps:
+Open a [new issue](https://github.com/Bon-Appetit/porn-domains/issues) and include:
 
-Create an issue: Create a [new issue](https://github.com/Bon-Appetit/porn-domains/issues) with the following:
-
-- Source URL you want to add or remove
-- Reason for inclusion or exclusion (e.g. source contains too many false positives etc.)
-- Supporting evidence (e.g. list some domains from the source that shouldn't be in there)
+- The source URL and whether you want it added or removed.
+- The reason for the request, such as outdated data or false positives.
+- Examples or other evidence that help us review the source.
 
 #### Option 2: Submit a source via pull request
 
-If you'd like to make the changes yourself, you can submit a pull request. Here's how:
+To make the change yourself, submit a pull request:
 
-1. Fork the repository and clone it to your local machine
-2. Edit the list:
-   - To add a blacklist source: Add the URL to `blacklist/bl-sources.txt` to include more domains in the blocklist
-   - To add a whitelist source: Add the URL to `whitelist/wl-sources.txt` to minimize false positives by excluding domains in that source from the blocklist
-3. Commit your changes and submit a pull request with a clear description of what you changed
+1. Fork the repository and clone it to your computer.
+2. Add or remove the source URL in the appropriate file:
+   - `blacklist/bl-sources.txt` for sources whose domains should be blocked.
+   - `whitelist/wl-sources.txt` for sources whose domains should be kept off the blocklist.
+3. Submit a pull request explaining the change.
 
 ### Removing a source
 
-You can also remove a source from the blocklist or whitelist if it's causing issues:
+If a source is causing problems or is no longer maintained, remove its URL from the relevant file:
 
-1. To remove a blacklist source: If a blacklist source is causing too many false positives, you can remove its URL from `blacklist/bl-sources.txt`
-2. To remove a whitelist source: If a whitelist source is causing false positives (incorrectly marking safe domains as blocked), you can remove its URL from `whitelist/wl-sources.txt`
+- Remove a blocklist source from `blacklist/bl-sources.txt`.
+- Remove a whitelist source from `whitelist/wl-sources.txt`.
 
 ## Guidelines for contributions
 
-- Accuracy: Verify domains and sources before adding them to ensure their relevance
-- Evidence: When possible, provide supporting references, such as URLs or screenshots
-- Format:
-  - Use plain text for domains and source URLs
-  - Use all lowercase for domain names (e.g. example.com)
-  - Keep entries in alphabetical order
-- Avoid duplicates: Before submitting a domain, please use the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) to check if the domain is already in the list. This helps us avoid duplicates and ensures the list remains clean and accurate.
-- Respect: Avoid submitting spammy or malicious domains or sources
+- **Accuracy:** Check that each domain or source is relevant before submitting it.
+- **Evidence:** Include references that help reviewers verify the request. Do not attach explicit media.
+- **Format:** Use plain text, lowercase domain names (for example, `example.com`), and keep entries in alphabetical order.
+- **Duplicates:** Check the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) before submitting a domain.
+- **Submissions:** Do not submit spammy or malicious domains or sources.
 
 ## Important notes
 
-- `block.{FILE_HASH}.{RANDOM_HASH}.txt` and `allow.{FILE_HASH}.{RANDOM_HASH}.txt`: These files are automatically generated and should never be modified manually.
-- Custom files: Only modify `blacklist/bl-custom.txt`, `whitelist/wl-custom.txt`, `blacklist/bl-sources.txt`, and `whitelist/wl-sources.txt`.
+- The generated `block.{FILE_HASH}.{RANDOM_HASH}.txt` and `allow.{FILE_HASH}.{RANDOM_HASH}.txt` files should not be edited manually.
+- For domain or source changes, edit only `blacklist/bl-custom.txt`, `whitelist/wl-custom.txt`, `blacklist/bl-sources.txt`, or `whitelist/wl-sources.txt`.

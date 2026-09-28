@@ -8,18 +8,20 @@
 
 </div>
 
-# List of domains with adult content
+# Adult-content domain list
 
-This list contains domains related to adult content, primarily pornographic websites. Instead of building yet another list from scratch, it aggregates the excellent work done by others into one comprehensive list.
+Bon-Appetit/porn-domains is a community-maintained domain list for DNS-based filtering of pornographic and explicit sexual content. It combines external sources with reviewed custom entries; it is not exhaustive and may contain errors.
 
-## Please donate to support this project
+DNS filtering works at the domain level, not at the page or URL level. Blocking a shared domain can affect unrelated content on that domain, and this list cannot prevent access through other DNS resolvers or services. Review the [inclusion policy](docs/POLICY.md) before using it.
+
+## Support the project
 
 [![Donate with Buy me a Coffee](https://bon-appetit.github.io/assets/images/bmc-orange-button@200x56.png)](https://buymeacoffee.com/CodeAlDente)
 
-Support is greatly appreciated, whether through contributions or a small donation via [Buy me a coffee](https://buymeacoffee.com/CodeAlDente). It helps keep the project maintained and continuously improved.
+Contributions, feedback, and optional donations help maintain the list and its sources.
 
 > [!IMPORTANT]
-> **Using it in a commercial product or service?** <br><br> If you're using this list in a commercial product, SaaS platform, security tool, analytics pipeline, or any service that generates value or revenue, consider supporting the project financially. Maintaining and curating a reliable, regularly updated dataset takes ongoing effort. This includes validating sources and keeping everything accurate and consistent. Contributing is a fair way to give back and helps keep the project sustainable. Even small, recurring support can make a real difference over time.
+> **Using the list commercially?** Maintaining and reviewing a regularly updated dataset takes ongoing work. Commercial users are welcome to contribute improvements or support the project financially.
 
 ## Live search
 
@@ -30,22 +32,24 @@ Support is greatly appreciated, whether through contributions or a small donatio
 
 | File | Description |
 |---|---|
-| `block.{FILE_HASH}.{RANDOM_HASH}.txt` | Blocklist with domains from multiple sources, deduplicated and cleaned. <br><br> ![Blocklist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
-| `allow.{FILE_HASH}.{RANDOM_HASH}.txt` | Allowlist of domains that were incorrectly flagged and should not be blocked. <br><br> ![Allowlist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
-| `meta.json` | Current filenames for automated fetching (avoids hardcoded URLs). |
+| `block.{FILE_HASH}.{RANDOM_HASH}.txt` | Generated blocklist, combined from sources and custom entries. <br><br> ![Blocklist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
+| `allow.{FILE_HASH}.{RANDOM_HASH}.txt` | Generated allowlist for domains excluded from the blocklist. <br><br> ![Allowlist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
+| [`meta.json`](meta.json) | Current filenames, raw URLs, update times, line counts, and file sizes. Use it to find the current list files; generated filenames can change. |
 
-**Note:** Wondering about `FILE_HASH` or `RANDOM_HASH`? [Please read this.](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CHANGELOG.md#2025-06-20)
+The generated filenames are intentionally changeable. Always read `meta.json` to resolve the current filenames instead of hardcoding a list URL. See the [changelog entry](docs/CHANGELOG.md#2025-06-20) for the filename format.
 
 ## Resources
 
 | Page | Description |
 |---|---|
-| [Changelog](docs/CHANGELOG.md) | Latest updates and changes |
-| [Policy](docs/POLICY.md) | Domain inclusion/exclusion criteria |
-| [Contributing](docs/CONTRIBUTING.md) | How to add or remove domains |
-| [Contributors](docs/CONTRIBUTORS.md) | Everyone who contributed |
-| [Sponsors](docs/SPONSORS.md) | Project supporters |
-| [Support](docs/SUPPORT.md) | Help and contact options |
+| Page | Description |
+|---|---|
+| [Policy](docs/POLICY.md) | What qualifies for inclusion or removal, including AI-generated content |
+| [Contributing](docs/CONTRIBUTING.md) | Report a domain or propose a change |
+| [Changelog](docs/CHANGELOG.md) | Changes to list structure and automation |
+| [FAQ](docs/FAQ.md) | Common questions |
+| [Support](docs/SUPPORT.md) | Help, issue reports, and contact |
+| [Contributors](docs/CONTRIBUTORS.md) · [Sponsors](docs/SPONSORS.md) | Community and project support |
 
 ## License
 
@@ -59,8 +63,8 @@ This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licens
 
 ## Disclaimer
 
-**No guarantee.** We don't promise the list is 100% accurate, complete, or up to date. Use it at your own discretion. Some sites may slip through, and some may eventually become non-adult.
+**No guarantee.** The list may be incomplete, out of date, or contain false positives. Review it before deployment and test it in your environment.
 
-**Local laws vary.** Definitions of "pornographic" differ by jurisdiction. We use a broad, common-sense definition. You're responsible for complying with your local regulations.
+**Local laws and policies vary.** This project uses the criteria in its [policy](docs/POLICY.md); your organization is responsible for deciding whether and how to use the list.
 
-**You're using it at your own risk.** False positives (blocking innocent sites) and false negatives (missing adult sites) can happen. The maintainers aren't liable for any damages from using this list.
+**Use at your own risk.** DNS blocking can disrupt access to legitimate content on a shared domain. The maintainers are not responsible for decisions made using this list.

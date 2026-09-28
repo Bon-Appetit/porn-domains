@@ -12,7 +12,7 @@
 
 Bon-Appetit/porn-domains is a community-maintained domain list for DNS-based filtering of pornographic and explicit sexual content. It combines external sources with reviewed custom entries; it is not exhaustive and may contain errors.
 
-DNS filtering works at the domain level, not at the page or URL level. Blocking a shared domain can affect unrelated content on that domain, and this list cannot prevent access through other DNS resolvers or services. Review the [inclusion policy](docs/POLICY.md) before using it.
+DNS filtering works at the domain level, not at the page or URL level. Blocking a shared domain can affect unrelated content on that domain, and this list cannot prevent access through other DNS resolvers or services. Review the [policy](docs/POLICY.md) before using it.
 
 ## Support the project
 
@@ -21,12 +21,12 @@ DNS filtering works at the domain level, not at the page or URL level. Blocking 
 Contributions, feedback, and optional donations help maintain the list and its sources.
 
 > [!IMPORTANT]
-> **Using the list commercially?** Maintaining and reviewing a regularly updated dataset takes ongoing work. Commercial users are welcome to contribute improvements or support the project financially.
+> **Using the list commercially?** Maintaining and reviewing a regularly updated dataset takes ongoing work. Commercial users are welcome to contribute improvements or support the project financially. [Click here to donate.](https://buymeacoffee.com/CodeAlDente)
 
 ## Live search
 
 > [!TIP]
-> This list is too large to view directly on GitHub. Use the search interface: https://bon-appetit.github.io/domain-search/
+> This list is too large to view directly on GitHub. Use the search interface: <br> https://bon-appetit.github.io/domain-search/
 
 ## Files
 
@@ -34,22 +34,19 @@ Contributions, feedback, and optional donations help maintain the list and its s
 |---|---|
 | `block.{FILE_HASH}.{RANDOM_HASH}.txt` | Generated blocklist, combined from sources and custom entries. <br><br> ![Blocklist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Blocklist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=blocklist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
 | `allow.{FILE_HASH}.{RANDOM_HASH}.txt` | Generated allowlist for domains excluded from the blocklist. <br><br> ![Allowlist Lines (Domains) in file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.lines_format&style=flat-square&label=Domains&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Last Update](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.updated_format&style=flat-square&label=Last%20update&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) ![Allowlist Size of file](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FBon-Appetit%2Fporn-domains%2Frefs%2Fheads%2Fmain%2Fmeta.json&query=allowlist.size_format&style=flat-square&label=Filesize&labelColor=%23555555&color=%23007EC6&cacheSeconds=43200) |
-| [`meta.json`](meta.json) | Current filenames, raw URLs, update times, line counts, and file sizes. Use it to find the current list files; generated filenames can change. |
+| `meta.json` | Current filenames, raw URLs, update times, line counts, and file sizes. Use it to find the current list files; generated filenames can change. |
 
-The generated filenames are intentionally changeable. Always read `meta.json` to resolve the current filenames instead of hardcoding a list URL. See the [changelog entry](docs/CHANGELOG.md#2025-06-20) for the filename format.
+The generated filenames are intentionally changeable. Always read `meta.json` to resolve the current filenames instead of hardcoding a list URL. [For more information, please read this.](docs/CHANGELOG.md#2025-06-20)
 
 ## Resources
 
 | Page | Description |
-|---|---|
-| Page | Description |
-|---|---|
 | [Policy](docs/POLICY.md) | What qualifies for inclusion or removal, including AI-generated content |
 | [Contributing](docs/CONTRIBUTING.md) | Report a domain or propose a change |
 | [Changelog](docs/CHANGELOG.md) | Changes to list structure and automation |
 | [FAQ](docs/FAQ.md) | Common questions |
 | [Support](docs/SUPPORT.md) | Help, issue reports, and contact |
-| [Contributors](docs/CONTRIBUTORS.md) · [Sponsors](docs/SPONSORS.md) | Community and project support |
+| [Contributors](docs/CONTRIBUTORS.md) / [Sponsors](docs/SPONSORS.md) | Community and project support |
 
 ## License
 

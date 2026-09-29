@@ -12,6 +12,7 @@ This changelog documents changes to the structure, file handling, and background
 ## 2026-09-29
 
 - Renamed blacklist/whitelist to blocklist/allowlist to use clearer, more neutral terminology. No domain data or behavior changes.
+- Previously, `raw_url` in `meta.json` pointed to the list on the `main` branch, so it could lead to different contents as the branch changed. It now includes the commit hash for the version that obfuscated the list, making the link point to that exact version and easier to retrieve and verify consistently.
 
 ## 2026-06-07
 

@@ -1,0 +1,189 @@
+name: Obfuscate lists
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - allow.txt
+      - block.txt
+
+# Only let one run update main at a time, so runs don't overwrite each other's changes.
+concurrency:
+  group: obfuscate-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  obfuscate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the latest main branch
+        uses: actions/checkout@v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure Git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch the latest main branch
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Check required files
+        run: |
+          for file in allow.txt block.txt meta.json; do
+            if [[ ! -f "${file}" ]]; then
+              echo "Required file '${file}' was not found."
+              exit 1
+            fi
+          done
+
+      - name: Obfuscate list filenames
+        id: obfuscate
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          for source_file in allow.txt block.txt; do
+            case "${source_file}" in
+              allow.txt)
+                file_base_name="allow"
+                metadata_key="allowlist"
+                output_name="allow_file"
+                ;;
+              block.txt)
+                file_base_name="block"
+                metadata_key="blocklist"
+                output_name="block_file"
+                ;;
+            esac
+
+            echo "Obfuscating ${metadata_key} from ${source_file}."
+
+            # Build a filename from part of the list's content hash and a random suffix.
+            content_hash=$(sha1sum "${source_file}" | awk '{print substr($1, 1, 10)}')
+            random_suffix=$(openssl rand -hex 3)
+            obfuscated_file="${file_base_name}.${content_hash}.${random_suffix}.txt"
+
+            # Check meta.json to find the filename generated on the previous run.
+            previous_file=$(jq -r --arg key "${metadata_key}" '.[$key].name // empty' meta.json)
+
+            # Rename the source list and remove its previous obfuscated copy.
+            git mv "${source_file}" "${obfuscated_file}"
+
+            if [[ -n "${previous_file}" && -f "${previous_file}" ]]; then
+              echo "Removing previous file: ${previous_file}"
+              git rm "${previous_file}"
+            fi
+
+            # Save the new filename so later steps can use it.
+            echo "${output_name}=${obfuscated_file}" >> "${GITHUB_OUTPUT}"
+          done
+
+          # Commit both obfuscated lists together. The next step uses this commit's
+          # hash to make raw URLs that point to the exact versions of the files.
+          git commit -m "[ACTION] Obfuscate lists"
+          echo "content_commit=$(git rev-parse HEAD)" >> "${GITHUB_OUTPUT}"
+
+      - name: Prepare metadata values
+        shell: bash
+        env:
+          REPOSITORY: ${{ github.repository }}
+          CONTENT_COMMIT: ${{ steps.obfuscate.outputs.content_commit }}
+          ALLOW_FILE: ${{ steps.obfuscate.outputs.allow_file }}
+          BLOCK_FILE: ${{ steps.obfuscate.outputs.block_file }}
+        run: |
+          set -euo pipefail
+
+          prepare_metadata() {
+            local metadata_key="$1"
+            local obfuscated_file="$2"
+            local output_file="$3"
+
+            local raw_url
+            local file_timestamp
+            local updated
+            local updated_format
+            local line_count
+            local line_count_format
+            local file_size
+            local size_format
+
+            # Use the commit that added the list file, so the URL stays tied to that version.
+            raw_url="https://raw.githubusercontent.com/${REPOSITORY}/${CONTENT_COMMIT}/${obfuscated_file}"
+
+            # Base the displayed update times on the commit that contains the list.
+            file_timestamp=$(git show -s --format=%ct "${CONTENT_COMMIT}")
+            updated=$(date -u -d "@${file_timestamp}" +"%Y-%m-%dT%H:%M:%SZ")
+            updated_format=$(date -u -d "@${file_timestamp}" +"%B %d, %Y %H:%M:%S UTC")
+
+            # Count the list's lines and get its size in bytes.
+            line_count=$(awk 'END { print NR }' "${obfuscated_file}")
+            line_count_format=$(printf "%'d" "${line_count}")
+            file_size=$(stat -c %s "${obfuscated_file}")
+
+            # Show small files in bytes and larger files in KB or MB.
+            if (( file_size < 1024 )); then
+              size_format="${file_size} B"
+            elif (( file_size < 1024 * 1024 )); then
+              size_format=$(awk "BEGIN { printf \"%.1f KB\", ${file_size} / 1024 }")
+            else
+              size_format=$(awk "BEGIN { printf \"%.1f MB\", ${file_size} / 1024 / 1024 }")
+            fi
+
+            # Write this list's values to a temporary JSON file for the metadata update step.
+            jq -n \
+              --arg name "${obfuscated_file}" \
+              --arg raw_url "${raw_url}" \
+              --arg updated "${updated}" \
+              --arg updated_format "${updated_format}" \
+              --arg lines_format "${line_count_format}" \
+              --arg size_format "${size_format}" \
+              --argjson lines "${line_count}" \
+              --argjson size "${file_size}" \
+              '{
+                name: $name,
+                raw_url: $raw_url,
+                updated: $updated,
+                updated_format: $updated_format,
+                lines: $lines,
+                lines_format: $lines_format,
+                size: $size,
+                size_format: $size_format
+              }' > "${output_file}"
+
+            echo "Prepared metadata for ${metadata_key}."
+          }
+
+          prepare_metadata "allowlist" "${ALLOW_FILE}" "allowlist-metadata.json"
+          prepare_metadata "blocklist" "${BLOCK_FILE}" "blocklist-metadata.json"
+
+      - name: Update meta.json
+        run: |
+          set -euo pipefail
+
+          # Replace the two list entries and leave any other top-level metadata untouched.
+          jq \
+            --slurpfile allowlist allowlist-metadata.json \
+            --slurpfile blocklist blocklist-metadata.json \
+            '.allowlist = $allowlist[0] | .blocklist = $blocklist[0]' \
+            meta.json > meta.tmp
+
+          mv meta.tmp meta.json
+
+      - name: Commit metadata update
+        run: |
+          git add meta.json
+          git commit -m "[ACTION] Update meta.json"
+
+      - name: Push changes to main
+        run: |
+          git push origin HEAD:main

@@ -41,6 +41,7 @@ The generated filenames are intentionally changeable. Always read `meta.json` to
 ## Resources
 
 | Page | Description |
+| -- | -- |
 | [Policy](docs/POLICY.md) | What qualifies for inclusion or removal, including AI-generated content |
 | [Contributing](docs/CONTRIBUTING.md) | Report a domain or propose a change |
 | [Changelog](docs/CHANGELOG.md) | Changes to list structure and automation |

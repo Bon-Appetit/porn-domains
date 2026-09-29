@@ -25,8 +25,8 @@ To make the change yourself, submit a pull request:
 
 1. Fork the repository and clone it to your computer.
 2. Add the domain to the appropriate file:
-   - To block it, add it to `blacklist/bl-custom.txt`.
-   - To keep it off the blocklist, add it to `whitelist/wl-custom.txt`.
+   - To block it, add it to `blocklist/block-custom.txt`.
+   - To keep it off the blocklist, add it to `allowlist/allow-custom.txt`.
 3. Submit a pull request explaining the change.
 
 ### Add or remove a source
@@ -47,16 +47,16 @@ To make the change yourself, submit a pull request:
 
 1. Fork the repository and clone it to your computer.
 2. Add or remove the source URL in the appropriate file:
-   - `blacklist/bl-sources.txt` for sources whose domains should be blocked.
-   - `whitelist/wl-sources.txt` for sources whose domains should be kept off the blocklist.
+   - `blocklist/block-sources.txt` for sources whose domains should be blocked.
+   - `allowlist/allow-sources.txt` for sources whose domains should be kept off the blocklist.
 3. Submit a pull request explaining the change.
 
 ### Removing a source
 
 If a source is causing problems or is no longer maintained, remove its URL from the relevant file:
 
-- Remove a blocklist source from `blacklist/bl-sources.txt`.
-- Remove a whitelist source from `whitelist/wl-sources.txt`.
+- Remove a blocklist source from `blocklist/block-sources.txt`.
+- Remove an allowlist source from `allowlist/allow-sources.txt`.
 
 ## Guidelines for contributions
 
@@ -69,4 +69,4 @@ If a source is causing problems or is no longer maintained, remove its URL from 
 ## Important notes
 
 - The generated `block.{FILE_HASH}.{RANDOM_HASH}.txt` and `allow.{FILE_HASH}.{RANDOM_HASH}.txt` files should not be edited manually.
-- For domain or source changes, edit only `blacklist/bl-custom.txt`, `whitelist/wl-custom.txt`, `blacklist/bl-sources.txt`, or `whitelist/wl-sources.txt`.
+- For domain or source changes, edit only `blocklist/block-custom.txt`, `allowlist/allow-custom.txt`, `blocklist/block-sources.txt`, or `allowlist/allow-sources.txt`.

@@ -17,10 +17,10 @@ body:
     id: source_type
     attributes:
       label: "Source Type"
-      description: "Does this source provide domains to be **blocked** or **excluded/whitelisted**?"
+      description: "Does this source provide domains to be **blocked** or **excluded**?"
       options:
         - "Blocklist (domains to be blocked)"
-        - "Whitelist (domains to be excluded from the blocklist)"
+        - "Allowlist (domains to be excluded from the blocklist)"
     validations:
       required: true
 

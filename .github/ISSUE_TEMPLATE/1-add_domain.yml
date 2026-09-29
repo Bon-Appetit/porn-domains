@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before requesting the addition of a domain, please review our [inclusion criteria](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/POLICY.md#-criteria-for-inclusion-block-criteria) and [contributing guidelines](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTING.md). Use the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) to check if the domain is already listed.
+        Before requesting the addition of a domain, please review our [inclusion criteria](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/POLICY.md#inclusion-criteria) and [contributing guidelines](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTING.md). Use the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) to check if the domain is already listed.
 
   - type: input
     id: domain_name

@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before requesting the removal of a domain, please review our [removal criteria](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/POLICY.md#-criteria-for-exclusion-or-removal) and [contributing guidelines](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTING.md). Use the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) to check whether the domain is currently listed.
+        Before requesting the removal of a domain, please review our [removal criteria](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/POLICY.md#exclusions-and-limits) and [contributing guidelines](https://github.com/Bon-Appetit/porn-domains/blob/main/docs/CONTRIBUTING.md). Use the [Domain Search Tool](https://bon-appetit.github.io/domain-search/) to check whether the domain is currently listed.
 
   - type: input
     id: domain_name

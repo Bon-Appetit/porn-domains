@@ -1,22 +1,22 @@
 {
   "blocklist": {
-    "name": "block.15e374fe0e.ac02f6.txt",
-    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/63d7e3acafe3c22d0a9cc6a4d81d83b770eab4df/block.15e374fe0e.ac02f6.txt",
-    "updated": "2026-10-22T07:29:20Z",
-    "updated_format": "October 22, 2026 07:29:20 UTC",
-    "lines": 421494,
-    "lines_format": "421494",
-    "size": 6761732,
+    "name": "block.3ea6afa666.1426ea.txt",
+    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/bf61633ae1eea8c83b011a9cbee758a834e0ef72/block.3ea6afa666.1426ea.txt",
+    "updated": "2026-10-23T07:31:09Z",
+    "updated_format": "October 23, 2026 07:31:09 UTC",
+    "lines": 417924,
+    "lines_format": "417924",
+    "size": 6707195,
     "size_format": "6.4 MB"
   },
   "allowlist": {
-    "name": "allow.33cce6c65b.0d7be9.txt",
-    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/63d7e3acafe3c22d0a9cc6a4d81d83b770eab4df/allow.33cce6c65b.0d7be9.txt",
-    "updated": "2026-10-22T07:29:20Z",
-    "updated_format": "October 22, 2026 07:29:20 UTC",
-    "lines": 15092,
-    "lines_format": "15092",
-    "size": 198505,
-    "size_format": "193.9 KB"
+    "name": "allow.decbab89ae.0e514b.txt",
+    "raw_url": "https://raw.githubusercontent.com/Bon-Appetit/porn-domains/bf61633ae1eea8c83b011a9cbee758a834e0ef72/allow.decbab89ae.0e514b.txt",
+    "updated": "2026-10-23T07:31:09Z",
+    "updated_format": "October 23, 2026 07:31:09 UTC",
+    "lines": 15105,
+    "lines_format": "15105",
+    "size": 198683,
+    "size_format": "194.0 KB"
   }
 }

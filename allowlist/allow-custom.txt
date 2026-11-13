@@ -9,6 +9,7 @@ cdn.cookielaw.org
 cdn.shopify.com
 channel5.com
 chat.com
+cmp.osano.com
 cnet.com
 curseforge.com
 deviantart.com
@@ -38,6 +39,7 @@ imgur.com
 instagram.com
 istockphoto.com
 jellyfin.org
+js.ad-score.com
 kexp.org
 kickstarter.com
 leguide.com
@@ -48,6 +50,7 @@ mediafire.com
 meetup.com
 mega.co.nz
 msn.com
+my.rtmark.net
 nyaa.si
 oisd.nl
 oltre.com
